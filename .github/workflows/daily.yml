@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write # Needed for uploading/downloading artifacts if we use releases, but for 'actions/upload-artifact@v4' it's fine.
-
+  actions: read
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
