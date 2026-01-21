@@ -59,3 +59,9 @@ jobs:
           # Only commit if the file actually changed
           git diff --quiet && git diff --staged --quiet || git commit -m "Update state index [skip ci]"
           git push
+
+      - name: DEBUG – workflow version
+        run: |
+          echo "DEBUG: Artifact step is removed"
+          echo "DEBUG: This is the current workflow"
+
