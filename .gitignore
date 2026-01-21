@@ -18,7 +18,6 @@ build/
 
 # Configuration
 config/settings.yaml
-state/
 outputs/
 temp/
 logs/

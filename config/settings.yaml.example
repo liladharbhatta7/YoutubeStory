@@ -1,6 +1,5 @@
 
 
-
 # Configuration
 ELEVENLABS_VOICE_ID: "q7fnW6ILZEHm4u3pf2g0" 
 ELEVENLABS_MODEL_ID: "eleven_v3"
