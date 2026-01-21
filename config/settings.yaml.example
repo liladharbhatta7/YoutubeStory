@@ -1,0 +1,10 @@
+
+
+
+# Configuration
+ELEVENLABS_VOICE_ID: "q7fnW6ILZEHm4u3pf2g0" 
+ELEVENLABS_MODEL_ID: "eleven_v3"
+LANGUAGE: "ne-NP" # Nepali
+
+# Paths (relative to root)
+FONT_PATH: "assets/fonts/NotoSansDevanagari-Bold.ttf" # Will need to ensure this exists or download it
