@@ -7,46 +7,40 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # Needed for uploading/downloading artifacts if we use releases, but for 'actions/upload-artifact@v4' it's fine.
+  contents: write
   actions: read
+
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # Updated to v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Updated to v5
         with:
           python-version: '3.11'
 
       - name: Install System Dependencies (FFmpeg & Fonts)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
-          # Install Devanagari fonts
-          sudo apt-get install -y fonts-noto-core fonts-noto-extra
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-extra
           mkdir -p assets/fonts
-          # Copy system font to helpful location or symlink if needed by script
-          # The script looks in assets/fonts/NotoSansDevanagari-Bold.ttf
-          # We can try to find where apt installed it. Usually /usr/share/fonts/maybe...
-          # Let's simple check if we can locate it or just use the system path in the script if we knew it.
-          # For robustness, let's copy it if found.
-          find /usr/share/fonts/ -name "*Devanagari-Bold.ttf" -exec cp {} assets/fonts/NotoSansDevanagari-Bold.ttf \; || echo "Font copy failed, script will use fallback"
+          find /usr/share/fonts/ -name "*Devanagari-Bold.ttf" -exec cp {} assets/fonts/NotoSansDevanagari-Bold.ttf \; || echo "Font copy failed"
 
       - name: Install Python Dependencies
         run: |
           pip install -r requirements.txt
 
-      # - name: Download State Artifact
-      #   uses: dawidd6/action-download-artifact@v2
-      #   with:
-      #     workflow: daily.yml
-      #     name: state-json
-      #     path: state/
-      #     if_no_artifact_found: warn
-      #     # This action searches previous successful runs for the artifact
+      - name: Download State Artifact
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: daily.yml
+          name: state-json
+          path: state/
+          if_no_artifact_found: warn
 
       - name: Run Daily Generator
         env:
@@ -60,18 +54,20 @@ jobs:
         run: |
           python -m src.main --count 3
 
-      # - name: Upload State Artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: state-json
-      #     path: state/state.json
-      #     retention-days: 14
+      - name: Upload State Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: state-json
+          path: state/state.json
+          retention-days: 14
 
-      # - name: Upload Report & Logs
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: daily-report-${{ github.sha }}
-      #     path: |
-      #       report.json
-      #       logs.txt
-      #     retention-days: 14
+      - name: Upload Report & Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report-${{ github.sha }}
+          path: |
+            report.json
+            logs.txt
+          retention-days: 14
