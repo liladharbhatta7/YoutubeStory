@@ -2,23 +2,21 @@ name: Daily Nepali Shorts Generator
 
 on:
   schedule:
-    # 23:15 UTC = 05:00 NPT
     - cron: '15 23 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
-  actions: read
 
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4 # Updated to v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # Updated to v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -33,14 +31,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Download State Artifact
-        uses: dawidd6/action-download-artifact@v6
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow: daily.yml
-          name: state-json
-          path: state/
-          if_no_artifact_found: warn
+      # DOWNLOAD STEP REMOVED TO STOP THE ERROR
 
       - name: Run Daily Generator
         env:
@@ -52,6 +43,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          # If the script needs the state folder to exist, we create it here
+          mkdir -p state 
           python -m src.main --count 3
 
       - name: Upload State Artifact
@@ -59,7 +52,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: state-json
-          path: state/state.json
+          path: state/
           retention-days: 14
 
       - name: Upload Report & Logs
