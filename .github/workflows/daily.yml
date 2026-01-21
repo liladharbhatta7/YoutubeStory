@@ -39,14 +39,14 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Download State Artifact
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          workflow: daily.yml
-          name: state-json
-          path: state/
-          if_no_artifact_found: warn
-          # This action searches previous successful runs for the artifact
+      # - name: Download State Artifact
+      #   uses: dawidd6/action-download-artifact@v2
+      #   with:
+      #     workflow: daily.yml
+      #     name: state-json
+      #     path: state/
+      #     if_no_artifact_found: warn
+      #     # This action searches previous successful runs for the artifact
 
       - name: Run Daily Generator
         env:
@@ -60,18 +60,18 @@ jobs:
         run: |
           python -m src.main --count 3
 
-      - name: Upload State Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: state-json
-          path: state/state.json
-          retention-days: 14
+      # - name: Upload State Artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: state-json
+      #     path: state/state.json
+      #     retention-days: 14
 
-      - name: Upload Report & Logs
-        uses: actions/upload-artifact@v4
-        with:
-          name: daily-report-${{ github.sha }}
-          path: |
-            report.json
-            logs.txt
-          retention-days: 14
+      # - name: Upload Report & Logs
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: daily-report-${{ github.sha }}
+      #     path: |
+      #       report.json
+      #       logs.txt
+      #     retention-days: 14
