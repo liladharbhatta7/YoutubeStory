@@ -14,9 +14,7 @@ Story:
 Visual Prompts:
 - English only.
 - Optimized for Pollinations(if the prompt is weak, it may generate images with errors).
-- Human prompts MUST include:
-  "full body, symmetrical anatomy, no extra limbs, natural proportions,
-   realistic pose, cinematic lighting, 4k, Nepal setting".
+- full body, correct human anatomy, symmetrical anatomy, no extra limbs, natural proportions, realistic pose, cinematic lighting, 4k resolution, Nepal setting, uncluttered background, realistic clothes, clear faces and hands, high detail, photorealistic
 
 JSON SCHEMA ENFORCEMENT:
 Ensure the output matches the Pydantic model structure:
