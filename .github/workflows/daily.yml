@@ -5,6 +5,11 @@ on:
     - cron: '15 23 * * *'
   workflow_dispatch:
 
+# Prevents two runs from updating state.json at the same time
+concurrency:
+  group: daily-nepali-shorts
+  cancel-in-progress: false
+
 permissions:
   contents: write  # Allows the bot to save the state.json back to the repo
 
@@ -43,7 +48,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          # The file state/state.json is already there because of 'checkout'
+          # state/state.json is already present from checkout
           python -m src.main --count 3
 
       - name: Save Updated State
