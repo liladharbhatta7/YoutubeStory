@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt.gz
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.spec
+
+# Configuration
+config/settings.yaml
+state/
+outputs/
+temp/
+logs/
+*.log
+
+# Assets (ignore if large, but user said 'Store BGM inside repo', so we keep music/sfx in git unless specified otherwise.
+# Usually we don't ignore assets unless they are generated.)
+# outputs/ is for generated videos
+outputs/*
+!outputs/.gitkeep
+
+# Mac
+.DS_Store

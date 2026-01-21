@@ -1,0 +1,585 @@
+2026-01-20 12:10:11,409 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 12:10:25,059 - daily_runner - INFO - Starting Daily Run
+2026-01-20 12:10:25,062 - daily_runner - INFO - Starting pipeline for 2026-01-20_T001
+2026-01-20 12:10:25,063 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 12:10:25,968 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:30,969 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 12:10:31,124 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:31,125 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T001",
+  "topic_id": "T001",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1b752a22350 state=finished raised InvalidArgument>]",
+  "timestamp": "2026-01-20T12:10:31.125161"
+}
+2026-01-20 12:10:31,125 - daily_runner - INFO - Starting pipeline for 2026-01-20_T002
+2026-01-20 12:10:31,126 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 12:10:31,452 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:36,453 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 12:10:36,615 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:36,616 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T002",
+  "topic_id": "T002",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1b7529a7490 state=finished raised InvalidArgument>]",
+  "timestamp": "2026-01-20T12:10:36.616670"
+}
+2026-01-20 12:10:36,617 - daily_runner - INFO - Starting pipeline for 2026-01-20_T003
+2026-01-20 12:10:36,618 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 12:10:37,025 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:42,026 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 12:10:42,137 - daily_runner - ERROR - Gemini generation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-01-20 12:10:42,137 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T003",
+  "topic_id": "T003",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1b752a65eb0 state=finished raised InvalidArgument>]",
+  "timestamp": "2026-01-20T12:10:42.137896"
+}
+2026-01-20 12:10:42,140 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 12:53:34,146 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 12:53:37,878 - daily_runner - INFO - Starting Daily Run
+2026-01-20 12:53:37,948 - daily_runner - INFO - Starting pipeline for 2026-01-20_T004
+2026-01-20 12:53:37,949 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 12:53:38,966 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:43,967 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 12:53:44,185 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:44,186 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T004",
+  "topic_id": "T004",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x206221ee350 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T12:53:44.186531"
+}
+2026-01-20 12:53:44,187 - daily_runner - INFO - Starting pipeline for 2026-01-20_T005
+2026-01-20 12:53:44,187 - daily_runner - INFO - Generating story for topic: T005
+2026-01-20 12:53:44,491 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:49,492 - daily_runner - INFO - Generating story for topic: T005
+2026-01-20 12:53:49,713 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:49,714 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T005",
+  "topic_id": "T005",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x20622177360 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T12:53:49.714784"
+}
+2026-01-20 12:53:49,715 - daily_runner - INFO - Starting pipeline for 2026-01-20_T006
+2026-01-20 12:53:49,716 - daily_runner - INFO - Generating story for topic: T006
+2026-01-20 12:53:50,020 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:55,021 - daily_runner - INFO - Generating story for topic: T006
+2026-01-20 12:53:55,245 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 12:53:55,245 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T006",
+  "topic_id": "T006",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x20622231eb0 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T12:53:55.245869"
+}
+2026-01-20 12:53:55,286 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 19:02:24,174 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:02:35,681 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:02:35,697 - daily_runner - INFO - Starting pipeline for 2026-01-20_T001
+2026-01-20 19:02:35,698 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 19:02:36,339 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:41,341 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 19:02:41,482 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:41,483 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T001",
+  "topic_id": "T001",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x18d3d21e350 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T19:02:41.483023"
+}
+2026-01-20 19:02:41,483 - daily_runner - INFO - Starting pipeline for 2026-01-20_T002
+2026-01-20 19:02:41,484 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 19:02:41,806 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:46,807 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 19:02:46,942 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:46,942 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T002",
+  "topic_id": "T002",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x18d3d1ab230 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T19:02:46.942826"
+}
+2026-01-20 19:02:46,943 - daily_runner - INFO - Starting pipeline for 2026-01-20_T003
+2026-01-20 19:02:46,944 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 19:02:47,300 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:52,302 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 19:02:52,430 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:02:52,430 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T003",
+  "topic_id": "T003",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x18d3d261eb0 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T19:02:52.430908"
+}
+2026-01-20 19:02:52,433 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 19:08:26,620 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:08:28,987 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:08:28,989 - daily_runner - INFO - Starting pipeline for 2026-01-20_T004
+2026-01-20 19:08:28,989 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 19:08:29,240 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:08:34,242 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 19:08:34,384 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:08:34,386 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T004",
+  "topic_id": "T004",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1235718e350 state=finished raised NotFound>]",
+  "timestamp": "2026-01-20T19:08:34.385999"
+}
+2026-01-20 19:08:34,386 - daily_runner - INFO - Starting pipeline for 2026-01-20_T005
+2026-01-20 19:08:34,387 - daily_runner - INFO - Generating story for topic: T005
+2026-01-20 19:08:34,730 - daily_runner - ERROR - Gemini generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-20 19:09:54,550 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:09:57,021 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:09:57,024 - daily_runner - INFO - Starting pipeline for 2026-01-20_T001
+2026-01-20 19:09:57,024 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 19:10:56,381 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:10:56,382 - daily_runner - INFO - Generating voice for text length: 575
+2026-01-20 19:10:57,289 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:10:57,291 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T001",
+  "topic_id": "T001",
+  "title": "\u0928\u091b\u094b\u0921\u094d\u0928\u0941\u0939\u094b\u0938\u094d \u0938\u092a\u0928\u093e!",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:10:57.291599"
+}
+2026-01-20 19:10:57,292 - daily_runner - INFO - Starting pipeline for 2026-01-20_T002
+2026-01-20 19:10:57,293 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 19:11:28,005 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:11:28,006 - daily_runner - INFO - Generating voice for text length: 719
+2026-01-20 19:11:28,445 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:11:28,446 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T002",
+  "topic_id": "T002",
+  "title": "\u092e\u094b\u0921\u0930\u094d\u0928 \u091a\u093f\u092f\u093e\u0915\u094b \u0930\u0939\u0938\u094d\u092f!",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:11:28.446356"
+}
+2026-01-20 19:11:28,447 - daily_runner - INFO - Starting pipeline for 2026-01-20_T003
+2026-01-20 19:11:28,447 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 19:11:46,218 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:11:46,219 - daily_runner - INFO - Generating voice for text length: 636
+2026-01-20 19:11:46,674 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:11:46,675 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T003",
+  "topic_id": "T003",
+  "title": "\u0906\u092e\u093e\u0915\u094b \u092b\u094b\u0928: \u0935\u093f\u0926\u0947\u0936\u0915\u094b \u091b\u094b\u0930\u093e\u0938\u0901\u0917\u0915\u094b \u0938\u092e\u094d\u092c\u0928\u094d\u0927",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:11:46.675027"
+}
+2026-01-20 19:11:46,677 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 19:14:00,052 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:14:02,471 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:14:02,473 - daily_runner - INFO - Starting pipeline for 2026-01-20_T004
+2026-01-20 19:14:02,474 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 19:14:54,497 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:14:54,498 - daily_runner - INFO - Generating voice for text length: 594
+2026-01-20 19:14:55,020 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:14:55,022 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T004",
+  "topic_id": "T004",
+  "title": "\u0938\u093e\u0928\u094b \u092c\u091a\u0924, \u0920\u0942\u0932\u094b \u0916\u0941\u0938\u0940",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:14:55.021943"
+}
+2026-01-20 19:14:55,022 - daily_runner - INFO - Starting pipeline for 2026-01-20_T005
+2026-01-20 19:14:55,022 - daily_runner - INFO - Generating story for topic: T005
+2026-01-20 19:15:12,401 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:15:12,402 - daily_runner - INFO - Generating voice for text length: 1177
+2026-01-20 19:15:12,826 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:15:12,827 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T005",
+  "topic_id": "T005",
+  "title": "\u092f\u0947\u0924\u0940\u0915\u094b \u0906\u0927\u0941\u0928\u093f\u0915 \u0930\u0939\u0938\u094d\u092f: \u0939\u093f\u092e\u093e\u0932\u0915\u094b \u0917\u094b\u092a\u094d\u092f \u0938\u0902\u0930\u0915\u094d\u0937\u0915",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:15:12.827636"
+}
+2026-01-20 19:15:12,828 - daily_runner - INFO - Starting pipeline for 2026-01-20_T006
+2026-01-20 19:15:12,829 - daily_runner - INFO - Generating story for topic: T006
+2026-01-20 19:15:31,731 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:15:31,732 - daily_runner - INFO - Generating voice for text length: 642
+2026-01-20 19:15:32,161 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:15:32,162 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T006",
+  "topic_id": "T006",
+  "title": "\u0938\u094d\u0935\u092f\u092e\u094d\u092d\u0942\u092e\u093e \u090f\u0909\u091f\u093e \u0932\u091c\u093e\u0932\u0941 \u092d\u0947\u091f",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:15:32.162560"
+}
+2026-01-20 19:15:32,164 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 19:22:59,631 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:23:02,348 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:23:02,350 - daily_runner - INFO - Starting pipeline for 2026-01-20_T001
+2026-01-20 19:23:02,351 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 19:23:18,043 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:23:18,044 - daily_runner - INFO - Generating voice for text length: 776
+2026-01-20 19:23:18,535 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:23:18,537 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T001",
+  "topic_id": "T001",
+  "title": "\u0938\u0902\u0918\u0930\u094d\u0937\u092c\u093e\u091f \u0938\u092b\u0932\u0924\u093e",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:23:18.537183"
+}
+2026-01-20 19:23:18,538 - daily_runner - INFO - Starting pipeline for 2026-01-20_T002
+2026-01-20 19:23:18,538 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 19:23:36,576 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:23:36,577 - daily_runner - INFO - Generating voice for text length: 731
+2026-01-20 19:23:37,001 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:23:37,002 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T002",
+  "topic_id": "T002",
+  "title": "\u0906\u0927\u0941\u0928\u093f\u0915 \u091a\u093f\u092f\u093e\u0915\u094b \u0930\u0939\u0938\u094d\u092f",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:23:37.002737"
+}
+2026-01-20 19:23:37,003 - daily_runner - INFO - Starting pipeline for 2026-01-20_T003
+2026-01-20 19:23:37,003 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 19:23:53,539 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:23:53,539 - daily_runner - INFO - Generating voice for text length: 721
+2026-01-20 19:23:53,977 - daily_runner - ERROR - ElevenLabs Error: {"detail":{"status":"model_not_found","message":"A model with model ID eleven_multilingual_v3 does not exist ..."}}
+2026-01-20 19:23:53,978 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T003",
+  "topic_id": "T003",
+  "title": "\u0906\u092e\u093e\u0915\u094b \u092b\u094b\u0928 \u092f\u093e\u0924\u094d\u0930\u093e",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Audio Gen failed",
+  "timestamp": "2026-01-20T19:23:53.978408"
+}
+2026-01-20 19:23:53,980 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 19:27:18,322 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 19:27:20,675 - daily_runner - INFO - Starting Daily Run
+2026-01-20 19:27:20,677 - daily_runner - INFO - Starting pipeline for 2026-01-20_T004
+2026-01-20 19:27:20,678 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 19:27:50,579 - daily_runner - ERROR - Gemini generation failed: Missing 'scenes' in response
+2026-01-20 19:27:55,581 - daily_runner - INFO - Generating story for topic: T004
+2026-01-20 19:31:52,988 - daily_runner - ERROR - Gemini generation failed: Missing 'scenes' in response
+2026-01-20 19:31:52,989 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T004",
+  "topic_id": "T004",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1e27a43e210 state=finished raised ValueError>]",
+  "timestamp": "2026-01-20T19:31:52.989005"
+}
+2026-01-20 19:31:52,989 - daily_runner - INFO - Starting pipeline for 2026-01-20_T005
+2026-01-20 19:31:52,990 - daily_runner - INFO - Generating story for topic: T005
+2026-01-20 19:32:05,822 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:32:05,822 - daily_runner - INFO - Generating voice for text length: 628
+2026-01-20 19:32:21,433 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T005_narration.mp3
+2026-01-20 19:32:21,436 - daily_runner - INFO - Downloading image from Pollinations: Majestic, snow-capped Himalaya...
+2026-01-20 19:32:24,473 - daily_runner - INFO - Downloading image from Pollinations: A lone trekker in modern winte...
+2026-01-20 19:32:54,692 - daily_runner - ERROR - Image generation exception: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=30)
+2026-01-20 19:32:54,693 - daily_runner - WARNING - Skipping scene 1 due to image generation failure
+2026-01-20 19:32:54,693 - daily_runner - INFO - Downloading image from Pollinations: POV shot looking into a dark, ...
+2026-01-20 19:32:56,466 - daily_runner - INFO - Downloading image from Pollinations: Inside a cozy, well-lit cave, ...
+2026-01-20 19:32:57,208 - daily_runner - INFO - Downloading image from Pollinations: The Yeti looks up from its tab...
+2026-01-20 19:32:58,089 - daily_runner - INFO - Running FFmpeg...
+2026-01-20 19:33:40,099 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T005.mp4
+2026-01-20 19:33:40,154 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-01-20 19:33:40,227 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T005_thumb.png
+2026-01-20 19:33:40,644 - daily_runner - ERROR - Failed to refresh token: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-01-20 19:33:40,647 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T005",
+  "topic_id": "T005",
+  "title": "\u0906\u0927\u0941\u0928\u093f\u0915 \u092f\u0924\u093f: \u0939\u093f\u092e\u093e\u0932\u0915\u094b \u0930\u0939\u0938\u094d\u092f\u092e\u092f \u0917\u0947\u092e \u091a\u0947\u0928\u094d\u091c\u0930!",
+  "publish_at": "2026-01-20 12:30:00+05:45",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-01-20T19:33:40.647149"
+}
+2026-01-20 19:33:40,660 - daily_runner - INFO - Starting pipeline for 2026-01-20_T006
+2026-01-20 19:33:40,664 - daily_runner - INFO - Generating story for topic: T006
+2026-01-20 19:33:58,704 - daily_runner - INFO - Story generated successfully.
+2026-01-20 19:33:58,705 - daily_runner - INFO - Generating voice for text length: 606
+2026-01-20 19:34:14,106 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T006_narration.mp3
+2026-01-20 19:34:14,108 - daily_runner - INFO - Downloading image from Pollinations: Panoramic view of Swayambhunat...
+2026-01-20 19:34:44,154 - daily_runner - ERROR - Image generation exception: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=30)
+2026-01-20 19:34:44,155 - daily_runner - WARNING - Skipping scene 0 due to image generation failure
+2026-01-20 19:34:44,156 - daily_runner - INFO - Downloading image from Pollinations: Close-up shot of playful monke...
+2026-01-20 19:34:45,596 - daily_runner - INFO - Downloading image from Pollinations: POV shot from the young Nepali...
+2026-01-20 19:34:47,343 - daily_runner - INFO - Downloading image from Pollinations: Two young Nepali people, a man...
+2026-01-20 19:34:48,192 - daily_runner - INFO - Downloading image from Pollinations: The shy young Nepali woman gra...
+2026-01-20 19:34:48,761 - daily_runner - INFO - Downloading image from Pollinations: The young Nepali man looking o...
+2026-01-20 19:34:49,589 - daily_runner - INFO - Running FFmpeg...
+2026-01-20 19:35:24,861 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T006.mp4
+2026-01-20 19:35:24,872 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-01-20 19:35:25,029 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T006_thumb.png
+2026-01-20 19:35:25,349 - daily_runner - ERROR - Failed to refresh token: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-01-20 19:35:25,350 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T006",
+  "topic_id": "T006",
+  "title": "\u0938\u094d\u0935\u092f\u092e\u094d\u092d\u0942\u0915\u094b \u0905\u092a\u0930\u093f\u091a\u093f\u0924 \u092e\u0941\u0938\u094d\u0915\u093e\u0928",
+  "publish_at": "2026-01-20 19:30:00+05:45",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-01-20T19:35:25.350723"
+}
+2026-01-20 19:35:25,369 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-01-20 20:13:01,225 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-01-20 20:13:04,350 - daily_runner - WARNING - [Pollinations] POLLINATIONS_API_KEY not set. Requests may be rate-limited.
+2026-01-20 20:13:04,949 - daily_runner - INFO - Starting Daily Run
+2026-01-20 20:13:04,953 - daily_runner - INFO - Starting pipeline for 2026-01-20_T001
+2026-01-20 20:13:04,954 - daily_runner - INFO - Generating story for topic: T001
+2026-01-20 20:13:18,803 - daily_runner - INFO - Story generated successfully.
+2026-01-20 20:13:18,804 - daily_runner - INFO - Generating voice for text length: 849
+2026-01-20 20:13:40,380 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T001_narration.mp3
+2026-01-20 20:13:40,420 - daily_runner - INFO - [Pollinations] Generating image: cinematic lighting, 4k, realistic, a struggling young Nepali
+2026-01-20 20:13:50,219 - daily_runner - INFO - [Pollinations] Image saved → C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T001_scene_0.jpg
+2026-01-20 20:13:50,259 - daily_runner - INFO - [Pollinations] Generating image: cinematic lighting, 4k, realistic, same Nepali student from 
+2026-01-20 20:14:30,330 - daily_runner - WARNING - [Pollinations] Attempt 1/3 failed: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=40)
+2026-01-20 20:15:12,497 - daily_runner - WARNING - [Pollinations] Attempt 2/3 failed: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=40)
+2026-01-20 20:15:34,917 - daily_runner - INFO - [Pollinations] Image saved → C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T001_scene_1.jpg
+2026-01-20 20:15:34,918 - daily_runner - INFO - [Pollinations] Generating image: cinematic lighting, 4k, realistic, same Nepali student, sitt
+2026-01-20 20:16:14,976 - daily_runner - WARNING - [Pollinations] Attempt 1/3 failed: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=40)
+2026-01-20 20:16:57,207 - daily_runner - WARNING - [Pollinations] Attempt 2/3 failed: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=40)
+2026-01-20 20:17:08,952 - daily_runner - INFO - [Pollinations] Image saved → C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T001_scene_2.jpg
+2026-01-20 20:17:08,953 - daily_runner - INFO - [Pollinations] Generating image: cinematic lighting, 4k, realistic, same Nepali student, now 
+2026-01-20 20:17:49,028 - daily_runner - WARNING - [Pollinations] Attempt 1/3 failed: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=40)
+2026-01-20 20:18:31,034 - daily_runner - INFO - [Pollinations] Image saved → C:\Users\lilad\Desktop\YoutubeStory\temp\2026-01-20_T001_scene_3.jpg
+2026-01-20 20:18:31,257 - daily_runner - INFO - Running FFmpeg...
+2026-01-20 20:19:17,827 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T001.mp4
+2026-01-20 20:19:17,861 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-01-20 20:19:17,951 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\YoutubeStory\outputs\2026-01-20_T001_thumb.png
+2026-01-20 20:19:18,579 - daily_runner - INFO - Uploading सपनाको शहरमा संघर्ष scheduled for 2026-01-20T14:54:17.000Z
+2026-01-20 20:19:24,736 - daily_runner - INFO - Upload Complete! Video ID: h_XWImcadW8
+2026-01-20 20:19:24,737 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T001",
+  "topic_id": "T001",
+  "title": "\u0938\u092a\u0928\u093e\u0915\u094b \u0936\u0939\u0930\u092e\u093e \u0938\u0902\u0918\u0930\u094d\u0937",
+  "publish_at": "2026-01-20 07:30:00+05:45",
+  "youtube_video_id": "h_XWImcadW8",
+  "status": "SUCCESS",
+  "error": null,
+  "timestamp": "2026-01-20T20:19:24.737048"
+}
+2026-01-20 20:19:24,746 - daily_runner - INFO - Starting pipeline for 2026-01-20_T002
+2026-01-20 20:19:24,750 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 20:19:25,502 - daily_runner - ERROR - Gemini generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 35.392700285s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2026-01-20 20:19:30,506 - daily_runner - INFO - Generating story for topic: T002
+2026-01-20 20:19:30,871 - daily_runner - ERROR - Gemini generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 30.000858678s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2026-01-20 20:19:30,873 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T002",
+  "topic_id": "T002",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1e0e71fc410 state=finished raised ResourceExhausted>]",
+  "timestamp": "2026-01-20T20:19:30.873889"
+}
+2026-01-20 20:19:30,874 - daily_runner - INFO - Starting pipeline for 2026-01-20_T003
+2026-01-20 20:19:30,875 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 20:19:31,251 - daily_runner - ERROR - Gemini generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 29.636545214s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2026-01-20 20:19:36,253 - daily_runner - INFO - Generating story for topic: T003
+2026-01-20 20:19:36,658 - daily_runner - ERROR - Gemini generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 24.243472534s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2026-01-20 20:19:36,659 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-01-20_T003",
+  "topic_id": "T003",
+  "title": "N/A",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Script Gen missing: RetryError[<Future at 0x1e0e71e0d60 state=finished raised ResourceExhausted>]",
+  "timestamp": "2026-01-20T20:19:36.659200"
+}
+2026-01-20 20:19:36,662 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
