@@ -22,7 +22,8 @@ class VoiceGenerator:
             "model_id": self.model_id,
             "voice_settings": {
                 "stability": 0.5,
-                "similarity_boost": 0.75
+                "similarity_boost": 0.75,
+                "style": 0.5
             }
         }
         
