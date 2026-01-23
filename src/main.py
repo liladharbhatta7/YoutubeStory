@@ -7,6 +7,8 @@ from src.report import report_manager
 from src.logger import logger
 import shutil
 from src.config_loader import config
+schedule_times = get_three_daily_schedules()
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -23,11 +25,7 @@ def main():
 
     # 2. Define Schedule Times (NPT)
     # Video1: 07:30, Video2: 12:30, Video3: 19:30
-    schedule_times = [
-        get_npt_time_today(7, 30),
-        get_npt_time_today(12, 30),
-        get_npt_time_today(19, 30)
-    ]
+    schedule_times = get_three_daily_schedules()
 
     # 3. Pipeline Loop
     for i, topic in enumerate(topics):
