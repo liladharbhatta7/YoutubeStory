@@ -29,7 +29,7 @@ class GeminiStoryGenerator:
         # Use the modern Client
         self.client = genai.Client(api_key=config.gemini_api_key)
         # Corrected Model: gemini-2.0-flash or gemini-1.5-flash
-        self.model_id = "gemini-2.0-flash" 
+        self.model_id = "gemini-2.5-flash" 
         self.system_prompt = config.get_gemini_prompt()
 
     @retry(stop=stop_after_attempt(2), wait=wait_fixed(5))
