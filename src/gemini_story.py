@@ -1,19 +1,19 @@
-import google.generativeai as genai
 import json
-import typing_extensions as typing
+import time
+from pydantic import BaseModel # New SDK works best with Pydantic
+from google import genai
 from src.config_loader import config
 from src.logger import logger
-import time
 from tenacity import retry, stop_after_attempt, wait_fixed
 
-# Define strict schema for Gemini
-class Scene(typing.TypedDict):
+# 1. Define Pydantic Models for strict JSON enforcement
+class Scene(BaseModel):
     duration_sec: float
     visual_prompt: str
     on_screen_text: str
     sfx: list[str]
 
-class StorySchema(typing.TypedDict):
+class StorySchema(BaseModel):
     series: str
     language: str
     story_id: str
@@ -24,53 +24,47 @@ class StorySchema(typing.TypedDict):
     scenes: list[Scene]
     hashtags: list[str]
 
-def _extract_json_object(text: str) -> dict:
-    """
-    Extract the first top-level JSON object from a text response.
-    This protects against occasional extra text or formatting.
-    """
-    if not text:
-        raise ValueError("Empty response text from Gemini")
-
-    start = text.find("{")
-    end = text.rfind("}")
-    if start == -1 or end == -1 or end <= start:
-        raise ValueError("No JSON object found in Gemini response text")
-
-    candidate = text[start:end + 1]
-    return json.loads(candidate)
-
 class GeminiStoryGenerator:
     def __init__(self):
-        genai.configure(api_key=config.gemini_api_key)
-        self.model = genai.GenerativeModel(
-            "gemini-2.5-flash",
-            generation_config={
-                "response_mime_type": "application/json",
-                "response_schema": StorySchema
-            }
-        )
+        # Using the modern GenAI Client
+        self.client = genai.Client(api_key=config.gemini_api_key)
+        # CHANGED: Use gemini-2.0-flash (stable/fast) or gemini-1.5-flash
+        self.model_id = "gemini-2.0-flash" 
         self.system_prompt = config.get_gemini_prompt()
 
     @retry(stop=stop_after_attempt(2), wait=wait_fixed(5))
     def generate_story(self, topic):
-        prompt = f"""
+        topic_id = topic.get('id', 'unknown')
+        current_date = time.strftime("%Y-%m-%d")
+        
+        user_prompt = f"""
         Topic JSON: {json.dumps(topic, ensure_ascii=False)}
         Generate a story regarding this topic.
-        Make sure the story_id follows format YYYY-MM-DD_<topic_id>.
-        Current Date: {time.strftime("%Y-%m-%d")}
+        Make sure the story_id follows format: {current_date}_{topic_id}.
+        Current Date: {current_date}
         """
 
-        logger.info(f"Generating story for topic: {topic.get('id')}")
+        logger.info(f"Generating story for topic: {topic_id}")
+        
         try:
-            response = self.model.generate_content([self.system_prompt, prompt])
+            # New SDK call format
+            response = self.client.models.generate_content(
+                model=self.model_id,
+                contents=user_prompt,
+                config={
+                    'system_instruction': self.system_prompt,
+                    'response_mime_type': 'application/json',
+                    'response_schema': StorySchema, # Strict structure enforcement
+                }
+            )
 
-            # Parse robustly (handles minor non-JSON wrappers)
-            story_json = _extract_json_object(getattr(response, "text", ""))
+            # The new SDK automatically parses the JSON into an object
+            story_data = response.parsed
+            
+            # Convert Pydantic object back to dict for the rest of your pipeline
+            story_json = story_data.model_dump()
 
-            # Basic validation (no scene count enforcement)
-            scenes = story_json.get("scenes", None)
-            if not isinstance(scenes, list) or len(scenes) == 0:
+            if not story_json.get("scenes"):
                 raise ValueError("Missing 'scenes' in response")
 
             logger.info("Story generated successfully.")
