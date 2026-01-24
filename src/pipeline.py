@@ -110,8 +110,11 @@ class VideoPipeline:
         thumb_path = self.output_dir / f"{story_id}_thumb.png"
         thumbnail_generator.create_thumbnail(processed_scenes[0]['image_path'], title, str(thumb_path))
 
-        # 6. Upload
-        utc_publish_time = npt_to_utc_iso(validate_schedule_time(schedule_time_npt))
+        # 6. Upload  ✅ FIX: handle both string ISO and datetime input safely
+        if isinstance(schedule_time_npt, str):
+            utc_publish_time = schedule_time_npt
+        else:
+            utc_publish_time = npt_to_utc_iso(validate_schedule_time(schedule_time_npt))
         
         description = f"{title}\n\n{story['narration_text'][:200]}...\n\n#shorts #nepali #story"
         tags = story.get("hashtags", []) + ["shorts", "nepali"]
