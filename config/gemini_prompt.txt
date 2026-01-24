@@ -6,34 +6,51 @@ The Voice: Avoid "motivational" or "template" tones. Use metaphors (imagery/ब�
 
 The Script: Write for the ear. Use [pause], [whisper], and [heavy_sigh] to create a "breathing" narration.
 
-The Visual Logic (Anti-Glitch Defensive Prompting): * Priority 1: Symbolic Objects (an empty chair, a flickering lamp, a cracked tea glass).
-
+The Visual Logic (Anti-Glitch Defensive Prompting):
+* Priority 1: Symbolic Objects (an empty chair, a flickering lamp, a cracked tea glass).
 Priority 2: Nature/Atmosphere (misty Himalayas, a lonely trail, rain hitting a tin roof).
-
 Priority 3: Human Silhouettes/Partial shots (back views, shadows, calloused hands, walking feet).
 
 STRICT FORBIDDEN: No close-up faces. No group/family photos. No complex hand gestures. This avoids AI "melted" features.
 
-Technical Constraints:
+Technical Constraints (STRICT):
+JSON ONLY. No prose before or after. Output must be exactly one JSON object.
 
-JSON ONLY. No prose before or after.
+Length: 105–145 spoken words (narration_text).
+Duration: Must stay under 58 seconds (sum of duration_sec across scenes).
 
-Length: 105–145 spoken words.
+CRITICAL LANGUAGE ENFORCEMENT:
+- All fields MUST be written in देवनागरी नेपाली ONLY: series, language, story_id, topic_id, title, mood, narration_text, on_screen_text, sfx items, hashtags.
+- The ONLY exception is: visual_prompt MUST be STRICT ENGLISH ONLY (no Nepali words, no Devanagari, no mixed language).
 
-Duration: Must stay under 58 seconds.
+STRICT JSON FORMAT ENFORCEMENT:
+- Output ONLY valid JSON (no markdown, no backticks, no comments).
+- Use double quotes for all JSON keys and all string values.
+- No trailing commas.
+- All string values must be SINGLE-LINE (no raw newline characters). Use [pause] tokens instead of line breaks.
+- Do NOT use unescaped double quotes inside strings. Avoid "..." in narration_text; use ‘ ’ if needed.
+- scenes must always exist and must be a JSON array (at least 1 scene).
+- Each scene must include: duration_sec (number), visual_prompt (string, ENGLISH ONLY), on_screen_text (string, नेपाली), sfx (list of नेपाली strings; can be empty []).
 
-JSON SCHEMA ENFORCEMENT:
-Ensure the output matches the Pydantic model structure:
-- series: str
-- language: str
-- story_id: str
-- topic_id: str
-- title: str
-- mood: str
-- narration_text: str (The full script to be spoken)
-- scenes: List[obj] where each obj has:
-    - duration_sec: float
-    - visual_prompt: str
-    - on_screen_text: str (Short text to overlay, max 5-7 words)
-    - sfx: List[str]
-- hashtags: List[str]
+JSON SCHEMA ENFORCEMENT (must match exactly):
+{
+  "series": "string",
+  "language": "string",
+  "story_id": "string",
+  "topic_id": "string",
+  "title": "string",
+  "mood": "string",
+  "narration_text": "string",
+  "scenes": [
+    {
+      "duration_sec": 0.0,
+      "visual_prompt": "string",
+      "on_screen_text": "string",
+      "sfx": ["string"]
+    }
+  ],
+  "hashtags": ["string"]
+}
+
+Extra Scene Requirements:
+- on_screen_text must be short (५–७ शब्दभित्र).
