@@ -1,12 +1,12 @@
 import json
 import time
-from pydantic import BaseModel # New SDK works best with Pydantic
+from pydantic import BaseModel
 from google import genai
 from src.config_loader import config
 from src.logger import logger
 from tenacity import retry, stop_after_attempt, wait_fixed
 
-# 1. Define Pydantic Models for strict JSON enforcement
+# 1. Define Pydantic Models (Better for JSON enforcement)
 class Scene(BaseModel):
     duration_sec: float
     visual_prompt: str
@@ -26,9 +26,9 @@ class StorySchema(BaseModel):
 
 class GeminiStoryGenerator:
     def __init__(self):
-        # Using the modern GenAI Client
+        # Use the modern Client
         self.client = genai.Client(api_key=config.gemini_api_key)
-        # CHANGED: Use gemini-2.0-flash (stable/fast) or gemini-1.5-flash
+        # Corrected Model: gemini-2.0-flash or gemini-1.5-flash
         self.model_id = "gemini-2.0-flash" 
         self.system_prompt = config.get_gemini_prompt()
 
@@ -47,25 +47,23 @@ class GeminiStoryGenerator:
         logger.info(f"Generating story for topic: {topic_id}")
         
         try:
-            # New SDK call format
+            # The new SDK passes system_instruction inside the config
             response = self.client.models.generate_content(
                 model=self.model_id,
                 contents=user_prompt,
                 config={
                     'system_instruction': self.system_prompt,
                     'response_mime_type': 'application/json',
-                    'response_schema': StorySchema, # Strict structure enforcement
+                    'response_schema': StorySchema, 
                 }
             )
 
-            # The new SDK automatically parses the JSON into an object
-            story_data = response.parsed
-            
-            # Convert Pydantic object back to dict for the rest of your pipeline
-            story_json = story_data.model_dump()
+            # response.parsed is already a Pydantic object
+            if not response.parsed:
+                raise ValueError("Empty response from Gemini")
 
-            if not story_json.get("scenes"):
-                raise ValueError("Missing 'scenes' in response")
+            # Convert to dict for your existing pipeline
+            story_json = response.parsed.model_dump()
 
             logger.info("Story generated successfully.")
             return story_json
