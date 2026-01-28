@@ -24,7 +24,7 @@ def main():
 
     # 2. Define Schedule Times (NPT)
     # Video1: 07:30, Video2: 12:30, Video3: 19:30
-    schedule_times = get_three_daily_schedules()
+    schedule_times = get_three_daily_schedules()[:args.count]
 
     # 3. Pipeline Loop
     for i, topic in enumerate(topics):
