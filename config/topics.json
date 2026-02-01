@@ -1,135 +1,389 @@
+```json
 [
-  { "id": "T001", "category": "Missed_Moment", "context": "A small delay that felt normal at the time but later changed everything." },
-  { "id": "T002", "category": "Mother_Sacrifice", "context": "A mother choosing silence instead of sharing her pain." },
-  { "id": "T003", "category": "Father_Struggle", "context": "A father continuing his routine despite carrying an unseen burden." },
-
-  { "id": "T004", "category": "Middle_Class_Reality", "context": "A family counting days until salary arrives." },
-  { "id": "T005", "category": "Silent_Love", "context": "An unsent message that stayed in the draft forever." },
-  { "id": "T006", "category": "Fate_Irony", "context": "A decision made casually that later feels terrifyingly important." },
-
-  { "id": "T007", "category": "Self_Confession", "context": "Pretending to be strong while quietly breaking inside." },
-  { "id": "T008", "category": "Dream_vs_Reality", "context": "Preparing for a future that keeps getting delayed despite effort." },
-  { "id": "T009", "category": "Future_Uncertainty", "context": "Waking up unsure about what tomorrow holds." },
-
-  { "id": "T010", "category": "Struggle_Silently", "context": "Handling problems without telling anyone." },
-  { "id": "T011", "category": "Education_Pressure", "context": "Studying under expectations that keep increasing." },
-  { "id": "T012", "category": "Responsibility_Weight", "context": "Becoming responsible before feeling ready." },
-
-  { "id": "T013", "category": "Loneliness_In_Crowd", "context": "Feeling alone despite being surrounded by people." },
-  { "id": "T014", "category": "Missed_Moment", "context": "Choosing to reply later to something that needed an immediate response." },
-  { "id": "T015", "category": "Mother_Sacrifice", "context": "A mother hiding her illness to avoid worrying her family." },
-
-  { "id": "T016", "category": "Father_Struggle", "context": "A father avoiding rest to keep everything running." },
-  { "id": "T017", "category": "Middle_Class_Reality", "context": "Choosing needs over small comforts." },
-  { "id": "T018", "category": "Silent_Love", "context": "Caring deeply without ever saying it out loud." },
-
-  { "id": "T019", "category": "Fate_Irony", "context": "Being grateful later for something that once felt like bad luck." },
-  { "id": "T020", "category": "Self_Confession", "context": "Realizing how fear has shaped daily choices." },
-  { "id": "T021", "category": "Dream_vs_Reality", "context": "A dream that slowly started feeling heavier than hopeful." },
-
-   { "id": "T022", "category": "Future_Uncertainty", "context": "An alarm rings after sunrise, unanswered." },
-  { "id": "T023", "category": "Struggle_Silently", "context": "A forced smile reflected briefly in a shop window." },
-  { "id": "T024", "category": "Education_Pressure", "context": "An exam admit card folded and unfolded repeatedly." },
-
-  { "id": "T025", "category": "Responsibility_Weight", "context": "Personal plans erased from a notebook margin." },
-  { "id": "T026", "category": "Loneliness_In_Crowd", "context": "A phone screen full of contacts, then locked." },
-  { "id": "T027", "category": "Missed_Moment", "context": "A ticking clock beside an unread notification." },
-
-  { "id": "T028", "category": "Mother_Sacrifice", "context": "A kitchen light left on long after midnight." },
-  { "id": "T029", "category": "Father_Struggle", "context": "A lunchbox returned untouched at night." },
-  { "id": "T030", "category": "Middle_Class_Reality", "context": "One currency note divided into three envelopes." },
-
-  { "id": "T031", "category": "Silent_Love", "context": "A wrapped gift never handed over." },
-  { "id": "T032", "category": "Fate_Irony", "context": "A closed door redirecting footsteps elsewhere." },
-  { "id": "T033", "category": "Self_Confession", "context": "Heavy eyes staring into a bathroom mirror." },
-
-  { "id": "T034", "category": "Dream_vs_Reality", "context": "A vision board slowly covered with dust." },
-  { "id": "T035", "category": "Future_Uncertainty", "context": "A road sign pointing in two directions." },
-  { "id": "T036", "category": "Struggle_Silently", "context": "Hands gripping a bag strap tighter than needed." },
-
-  { "id": "T037", "category": "Education_Pressure", "context": "A syllabus page marked more in red than black." },
-  { "id": "T038", "category": "Responsibility_Weight", "context": "Childhood photos stacked away in a drawer." },
-  { "id": "T039", "category": "Loneliness_In_Crowd", "context": "Familiar faces passing without eye contact." },
-
-  { "id": "T040", "category": "Missed_Moment", "context": "A bus leaving as someone hesitates at the stop." },
-  { "id": "T041", "category": "Mother_Sacrifice", "context": "Food served to everyone except herself." },
-  { "id": "T042", "category": "Father_Struggle", "context": "A work bag placed down only after everyone sleeps." },
-
-  { "id": "T043", "category": "Middle_Class_Reality", "context": "Receipts sorted carefully on a table." },
-  { "id": "T044", "category": "Silent_Love", "context": "Watching from afar without waving." },
-  { "id": "T045", "category": "Fate_Irony", "context": "A wrong turn revealing an open shelter." },
-
-  { "id": "T046", "category": "Self_Confession", "context": "Walking forward while frequently looking back." },
-  { "id": "T047", "category": "Dream_vs_Reality", "context": "A goal written smaller to fit remaining space." },
-  { "id": "T048", "category": "Future_Uncertainty", "context": "A resume saved but never sent." },
-
-  { "id": "T049", "category": "Struggle_Silently", "context": "Painkillers taken without mentioning the pain." },
-  { "id": "T050", "category": "Education_Pressure", "context": "Answer sheets rewritten late into the night." },
-  { "id": "T051", "category": "Responsibility_Weight", "context": "A family decision made over a silent dinner." },
-
-  { "id": "T052", "category": "Loneliness_In_Crowd", "context": "Sitting among people, headphones on, no music." },
-  { "id": "T053", "category": "Missed_Moment", "context": "A ringing phone silenced too quickly." },
-  { "id": "T054", "category": "Mother_Sacrifice", "context": "Clothes ironed carefully despite trembling hands." },
-
-  { "id": "T055", "category": "Father_Struggle", "context": "Resting eyes briefly before standing up again." },
-  { "id": "T056", "category": "Middle_Class_Reality", "context": "Dream purchases removed from an online cart." },
-  { "id": "T057", "category": "Silent_Love", "context": "Acts done daily without acknowledgment." },
-
-  { "id": "T058", "category": "Fate_Irony", "context": "A delayed train avoiding an unseen accident." },
-  { "id": "T059", "category": "Self_Confession", "context": "Fear hidden behind routine movements." },
-  { "id": "T060", "category": "Dream_vs_Reality", "context": "Hope written, then lightly crossed out." },
-
-  { "id": "T061", "category": "Future_Uncertainty", "context": "Standing still at a junction with no signboard." },
-  { "id": "T062", "category": "Struggle_Silently", "context": "Nods replacing honest answers." },
-  { "id": "T063", "category": "Education_Pressure", "context": "The same exam book reopened after failure." },
-
-  { "id": "T064", "category": "Responsibility_Weight", "context": "A safer option chosen without discussion." },
-  { "id": "T065", "category": "Loneliness_In_Crowd", "context": "Laughing along, eyes elsewhere." },
-  { "id": "T066", "category": "Missed_Moment", "context": "Typing stopped before pressing send." },
-
-  { "id": "T067", "category": "Mother_Sacrifice", "context": "Encouraging words spoken despite quiet exhaustion." },
-  { "id": "T068", "category": "Father_Struggle", "context": "Responsibility carried without applause." },
-  { "id": "T069", "category": "Middle_Class_Reality", "context": "Expenses reviewed twice before payment." },
-
-  { "id": "T070", "category": "Silent_Love", "context": "Letting footsteps fade without calling out." },
-  { "id": "T071", "category": "Fate_Irony", "context": "A minor error preventing a larger loss." },
-  { "id": "T072", "category": "Self_Confession", "context": "Continuing work despite visible fatigue." },
-
-  { "id": "T073", "category": "Dream_vs_Reality", "context": "Ambitions adjusted to fit available means." },
-  { "id": "T074", "category": "Future_Uncertainty", "context": "Hope written cautiously on tomorrow’s page." },
-  { "id": "T075", "category": "Struggle_Silently", "context": "Pressure accepted without resistance." },
-
-  { "id": "T076", "category": "Education_Pressure", "context": "Studying late with uncertain confidence." },
-  { "id": "T077", "category": "Responsibility_Weight", "context": "Taking control when others step back." },
-  { "id": "T078", "category": "Loneliness_In_Crowd", "context": "Passing days unnoticed." },
-
-  { "id": "T079", "category": "Missed_Moment", "context": "A small choice echoing much later." },
-  { "id": "T080", "category": "Mother_Sacrifice", "context": "Patience chosen instead of complaint." },
-  { "id": "T081", "category": "Father_Struggle", "context": "Stress absorbed behind calm gestures." },
-
-  { "id": "T082", "category": "Middle_Class_Reality", "context": "Numbers balanced carefully at month’s end." },
-  { "id": "T083", "category": "Silent_Love", "context": "Care given without expectation." },
-  { "id": "T084", "category": "Fate_Irony", "context": "Waiting longer than planned, learning why later." },
-
-  { "id": "T085", "category": "Self_Confession", "context": "Overwhelm carried forward step by step." },
-  { "id": "T086", "category": "Dream_vs_Reality", "context": "Dreams revisited between daily chores." },
-  { "id": "T087", "category": "Future_Uncertainty", "context": "Progress questioned in quiet moments." },
-
-  { "id": "T088", "category": "Struggle_Silently", "context": "Challenges faced alone behind closed doors." },
-  { "id": "T089", "category": "Education_Pressure", "context": "Restarting preparation after disappointment." },
-  { "id": "T090", "category": "Responsibility_Weight", "context": "Expectations felt heavier than spoken." },
-
-  { "id": "T091", "category": "Loneliness_In_Crowd", "context": "Routine followed without connection." },
-  { "id": "T092", "category": "Missed_Moment", "context": "A warning ignored in passing." },
-  { "id": "T093", "category": "Mother_Sacrifice", "context": "Strength shown to hide concern." },
-
-  { "id": "T094", "category": "Father_Struggle", "context": "Working through discomfort without pause." },
-  { "id": "T095", "category": "Middle_Class_Reality", "context": "Careful living to maintain balance." },
-  { "id": "T096", "category": "Silent_Love", "context": "Letting go quietly to protect others." },
-
-  { "id": "T097", "category": "Fate_Irony", "context": "A missed chance revealing its purpose later." },
-  { "id": "T098", "category": "Self_Confession", "context": "Limits accepted without stopping." },
-  { "id": "T099", "category": "Dream_vs_Reality", "context": "Expectations reshaped but not erased." },
-
-  { "id": "T100", "category": "Future_Uncertainty", "context": "Moving ahead without a visible destination." }
+  {
+    "id": "T001",
+    "category": "Missed_Moment",
+    "context": "बाको अन्तिम सास चल्दै गर्दा म एयरपोर्टमा बोर्डिङ पास लिइरहेको थिएँ। [pause] मात्र २ घण्टा अघि पुग्न सकेको भए बाको हात समात्न पाउँथेँ होला। [heavy_sigh] जब घर पुगेँ, बाको शरीर चिसो भइसकेको थियो र टेबलमा मेरो लागि किनेको नयाँ घडी अझै त्यहीँ थियो। [pause] त्यो २ घण्टाको ढिलाइले मलाई जिन्दगीभरको अपराधी बनाइदियो। [whisper] अचेल घडीको हरेक ‘टिक-टिक’ ले सोध्छ— ती २ घण्टा कहाँ हरायौ? एउटा सानो ढिलाइले मेरो अन्तिम बिदाइ सधैंका लागि अधुरो बनाइदियो।"
+  },
+  {
+    "id": "T002",
+    "category": "Mother_Sacrifice",
+    "context": "आमाले मलाई पिकनिक जान पाँच सय रुपैयाँ दिनुभयो। [pause] म खुसी हुँदै कोठामा जाँदा देखें— आमाको औषधि सकिएको रित्तो बट्टा दराजमा धुलो परेर बसेको रहेछ। [heavy_sigh] उहाँले आफ्नो दुखाइ लुकाएर मलाई रमाइलो गर्न पैसा दिनुभएको रहेछ। [pause] म पिकनिक गइनँ, बरु त्यही पैसाले आमाको औषधि किनेर ल्याइदिएँ। [whisper] आमाले सोध्नुभयो— ‘किन नगएको?’ मैले हाँसेर भनें— ‘साथीहरू नै आएनन् आमा।’ [heavy_sigh] आमाको औषधि र मेरो त्यो झुट… जिन्दगीकै सबैभन्दा महँगो पिकनिक त्यही भयो।"
+  },
+  {
+    "id": "T003",
+    "category": "Father_Struggle",
+    "context": "बाको दुर्घटना भएर गोडाबाट रगत बगिरहेको थियो, तर उहाँ अस्पताल नगई काममै फर्किनुभयो। [pause] भन्नुभयो— ‘आज छुट्टी लिएँ भने तिम्रो इन्जिनियरिङको फिस पुग्दैन।’ [heavy_sigh] राति बाले लुकेर आफ्नो घाउमा पुरानो कपडाले बाँध्दै गरेको देख्दा मेरो डिग्रीको प्रमाणपत्र मलाई पासो जस्तो लाग्यो। [pause] बाको त्यो रगतले मेरो भविष्य लेखिँदै थियो। [whisper] म सहरमा ‘करिअर’ को सपना देख्छु, तर यहाँ बाको शरीर मेरो सपनाको जग बनेर बिस्तारै खिइँदै गइरहेको छ।"
+  },
+  {
+    "id": "T004",
+    "category": "Middle_Class_Reality",
+    "context": "महिनाको २५ गतेपछि हाम्रो घरको मेनु फेरिन्छ। [pause] दूध आउन छोड्छ र चियामा चिनीको मात्रा घट्छ। [heavy_sigh] बा अचेल अफिसबाट ढिलो आउनुहुन्छ, सायद भाडा जोगाउन पैदलै हिँड्नुहुन्छ होला। [pause] हिजो आमाले भनिरहनुभएको थियो— ‘यो महिना त गाह्रो भो, के गर्ने?’ [whisper] बाले लामो सुस्केरा हालेर मात्र भन्नुभयो— ‘अब ५ दिन त हो, जसोतसो कट्ला।’ [pause] मिडिल क्लास हुनुको पीडा यही हो— न कसैलाई माग्न सकिन्छ, न अभावमा हाँस्न नै।"
+  },
+  {
+    "id": "T005",
+    "category": "Silent_Love",
+    "context": "उसको बिहेको निम्तो कार्ड हातमा छ। [pause] मेरो मोबाइलको ड्राफ्टमा तीन वर्षदेखि एउटा सन्देश कुहिएर बसेको छ— ‘म तिमीलाई धेरै माया गर्छु।’ [heavy_sigh] तर एउटा डेलिभरी बोइको छोरो भएर कसरी त्यो सन्देश पठाउने हिम्मत गर्थेँ र? [pause] आज ऊ अर्कैको सिन्दुर लगाएर हाँसिरहँदा लाग्छ— मेरो गरिबीले मेरो माया मात्र होइन, मेरो बोल्ने साहस पनि मारेको रहेछ। [pause] त्यो एउटा ‘पठाइनँ’ भन्ने पछुतो आज मेरो जिन्दगीकै सबैभन्दा ठूलो घाउ बनेको छ।"
+  },
+  {
+    "id": "T006",
+    "category": "Fate_Irony",
+    "context": "मैले त्यो दिन ठट्टामा आफ्नो सिट साथीलाई छोडिदिएको थिएँ। [pause] केही घण्टापछि खबर आयो— त्यो बस भीरबाट खस्यो र मेरो सिटमा बस्ने साथी अब यो संसारमा छैन। [heavy_sigh] एउटा सानो ठट्टाले मेरो ज्यान बचायो र उसको जिन्दगी टुट्यो। [pause] अचेल ऐना हेर्दा आफैलाई सोध्छु— किन म नै बाँचेँ त? [whisper] भाग्यले दिएको उपहार हो कि कहिल्यै निको नहुने ग्लानि? जिन्दगी र मृत्युको बीचमा… मात्र एउटा सिटको फरक हुँदो रहेछ।"
+  },
+  {
+    "id": "T007",
+    "category": "Self_Confession",
+    "context": "सहरमा मलाई सबैले ‘सफल मान्छे’ भन्छन्, तर राति ढोका थुनेपछि म सानो बच्चा जस्तै रुन्छु। [pause] बाको मलामी जाँदा समेत म रुन पाइनँ, किनकि ‘घरको खम्बा’ बन्नु थियो। [heavy_sigh] अरूको अगाडि बलियो बन्दाबन्दै म भित्रभित्रै खोक्रो भइसकेछु। [pause] सफलताको शिखरमा पुगेँ, तर यति एक्लो भएँ कि अब मेरो दुःख सुन्ने… मेरो आफ्नै छायाँ बाहेक कोही छैन। [whisper] मान्छेलाई जिताउँदै-जिताउँदै म आफैसँग हारिसकेको रहेछु।"
+  },
+  {
+    "id": "T008",
+    "category": "Dream_vs_Reality",
+    "context": "मैले विदेश जाने भिसा त पाएँ, तर बाको क्यान्सरको रिपोर्ट पनि त्यही दिन आयो। [pause] मेरो हातमा दुईटा बाटा थिए— एउटा मेरो सपनाको आकाश, अर्को बाको अन्तिम समय। [heavy_sigh] मैले पासपोर्ट च्यातेर राखिदिएँ र बाको बेडको छेउमा बसेँ। [pause] साथीहरू जहाज चढेर उड्दा म यहाँ अस्पतालको गन्ध र रित्तो आशा कुरेर बसिरहेछु। [whisper] सपना मर्नु त दुख हो, तर बाको ओठमा आउने त्यो सानो मुस्कानले भन्छ— ‘मेरो छोरो त मेरै साथमा छ।’"
+  },
+  {
+    "id": "T009",
+    "category": "Future_Uncertainty",
+    "context": "ऋणको किस्ता तिर्न नसकेर साहुले घरको ढोकामा ताल्चा लगाउन आउने दिन नजिकिँदै छ। [pause] भोलि बिहान कहाँ जाने, के खाने— केही थाहा छैन। [heavy_sigh] आमा भित्तामा झुण्डिएको बाको तस्बिर हेर्दै हुनुहुन्छ, र म आमाको अनुहार। [pause] बेच्नका लागि अब केही छैन, बाँकी छ त केवल आत्मसम्मान। [whisper] सडकमा गुड्ने गाडीहरू हेरेर सोध्छु— के यो सहरमा हाम्रो लागि एउटा सानो कोठा पनि बाँकी छैन? भोलिको सूर्योदय मेरो लागि उज्यालो होइन… अन्धकारजस्तै लाग्छ।"
+  },
+  {
+    "id": "T010",
+    "category": "Struggle_Silently",
+    "context": "मैले जागिर छोडेको एक महिना भइसक्यो, तर घरमा कसैलाई भनेको छैन। [pause] सधैं झैँ झोला बोकेर निस्किन्छु र दिनभर पार्कको बेन्चमा बसेर टोलाउँछु। [heavy_sigh] बेलुका रित्तो हात घर छिर्दा छोरीले ‘बाबा, मेरो लागि के ल्याउनुभयो?’ भन्छे, मुटु फुटेर आउँछ। [pause] आमालाई लाग्छ म अफिसमै व्यस्त छु, तर म आफ्नै असफलताको भारी बोकेर सडक नापिरहेछु। [whisper] यो मौन लडाइँ यति गाह्रो छ कि अब आफैलाई ढाँट्न पनि लाज लाग्न थालेको छ।"
+  },
+  {
+    "id": "T011",
+    "category": "Education_Pressure",
+    "context": "मैले दिनरात नभनी लोकसेवा पढेँ, नाम पनि निकालेँ। [pause] तर नियुक्ति लिने दिन थाहा पाएँ— मेरो सिटमा अर्कै मन्त्रीको मान्छे बसिसकेको रहेछ। [heavy_sigh] बाले खुसीले गाउँभरि बाँडेको मिठाई अझै मेरो हातमै थियो, तर मेरो योग्यता भ्रष्टाचारको आगोमा जलेर खरानी भइसकेको थियो। [pause] प्रमाणपत्र हातमा लिएर सडक नाप्दा लाग्यो— यो देशमा दिमाग होइन, दाम चल्दो रहेछ। [whisper] त्यो दिन मेरो मेहेनत मात्रै मरेन, देशप्रतिको भरोसा पनि सधैंका लागि मरेर गयो।"
+  },
+  {
+    "id": "T012",
+    "category": "Responsibility_Weight",
+    "context": "एयरपोर्टको गेटमा आमाले मेरो हात समातेर भन्नुभयो— ‘बाबु, ऋण धेरै छ, आफ्नो ख्याल गर्नु।’ [pause] जहाज चढ्नु अघि पछाडि फर्केर हेरेँ— आमाको चाउरिएको अनुहार र फाटेको चप्पलले मलाई सम्झाइरहेको थियो, म खुसी खोज्न होइन, परिवार बचाउन जाँदैछु। [heavy_sigh] परदेशको तातो घाममा हरेक थोपा पसिनासँगै घरको किस्ता गन्छु। [pause] म १८ वर्षमै बुढो भएँ, किनकि मेरो काँधमा रहर होइन— पुरै घरको जिम्मेवारी छ।"
+  },
+  {
+    "id": "T013",
+    "category": "Loneliness_In_Crowd",
+    "context": "गाउँमा सबैले भन्छन्— ‘छोरो त परदेशमा डलर छाप्दैछ।’ [pause] तर कसैलाई थाहा छैन, महिनाको अन्त्यमा घर पैसा पठाएपछि म यहाँ सानो कोठामा सुक्खा रोटी र पानी खाएर सुत्छु। [heavy_sigh] चाडबाडमा सबैका घरमा बत्ती बल्छ, तर मेरो भिडियो कलमा आमाको आँसु मात्र देखिन्छ। [pause] पैसा त कमाएँ, तर आफ्नो मान्छेको स्पर्श र घरको बास्ना गुमाएँ। [whisper] भिडभाड भएको देशमा पनि— म जस्तो एक्लो मान्छे सायदै कोही होला।"
+  },
+  {
+    "id": "T014",
+    "category": "Missed_Moment",
+    "context": "काठको त्यो बाकस एयरपोर्टमा ओर्लिँदा कसैले सोचेको थिएन— रातो राहदानी लिएर उडेको छोरो सेतो कत्रोमा बेरिएर फर्कनेछ। [heavy_sigh] श्रीमतीले भन्दै थिइन्— ‘यो पालि त आउनुहुन्छ होला नि?’ [pause] उहाँ आउनु त भयो… तर बोल्ने भएर होइन, एउटा निर्जीव बाकसमा थुनिएर। [whisper] रेमिट्यान्सको तथ्याङ्कमा एउटा अंक थपियो होला, तर एउटा घरको छानो सधैंका लागि भत्कियो। त्यो बाकस काँध थाप्दा… आज सिंगो देशको भविष्य नै गरुङ्गो महसुस हुन्छ।"
+  },
+  {
+    "id": "T015",
+    "category": "Mother_Sacrifice",
+    "context": "अस्पतालको बेडमा आमा अन्तिम सास फेर्दै हुनुहुन्थ्यो, तर डाक्टरले भन्यो— ‘पहिले पैसा बुझाउनुस्, अनि मात्र अक्सिजन मिल्छ।’ [pause] मेरो हातमा भएको पैसाले त अस्पतालको गेट पनि खुल्नेवाला थिएन। [heavy_sigh] आमाको आँखामा रिस थिएन, बरु मलाई एक्लै छोड्नुपरेको चिन्ता थियो। [pause] आमा बित्नुभयो… र त्यससँगै अस्पतालप्रतिको होइन— मानवताप्रतिको मेरो भरोसा पनि च्यातियो। [whisper] गरिब हुनुको अर्थ उपचार नपाउनु मात्र होइन, आफ्नै आमाको प्राण जाँदा निरीह भएर हेरिरहनु रहेछ।"
+  },
+  {
+    "id": "T016",
+    "category": "Father_Struggle",
+    "context": "बाले मलाई सधैं भन्नुभयो— ‘मलाई कहिल्यै दुःख भएन, तिमी मात्र पढ।’ [pause] तर एकदिन बाले अफिसमा हाकिमको गाली खाएर टाउको निहुराएको देखेँ। [heavy_sigh] आफ्नो आत्मसम्मान दबाएर बाले मेरो इज्जत जोगाउनुभएको रहेछ। [pause] त्यो दिन बुझें— बाको ‘सब ठिक छ’ भन्ने मुस्कानभित्र कति अपमानका घुट्काहरू लुकेका थिए। [whisper] म सहरमा ‘इगो’ को कुरा गर्छु, तर मेरा बाले मेरो लागि आफ्नो इगो हरेक दिन चोकको चौतारीमा चुपचाप बलि चढाउनुभएको छ।"
+  },
+  {
+    "id": "T017",
+    "category": "Middle_Class_Reality",
+    "context": "चाडबाड आउँदा हाम्रो घरमा खुसीभन्दा धेरै… सुस्तरी कुरा गर्ने आवाज सुनिन्छ। [pause] आमाले पुरानो साडीलाई फेरि नयाँ जस्तै पारेर लगाउनुहुन्छ र भन्नुहुन्छ— ‘मलाई त यही राम्रो लाग्छ।’ [heavy_sigh] बाले आफ्नो चप्पल फाटेको कुरा कसैलाई भन्नुहुन्न। [pause] हामीलाई नयाँ लुगा किनिदिएर बा-आमा ‘हामीलाई त पर्दैन’ भन्दै मुस्कुराउनुहुन्छ। [whisper] मध्यमवर्गीय चाड खसीको मासुमा होइन, एक-अर्काको अभाव छोप्ने प्रयासमा बित्दो रहेछ।"
+  },
+  {
+    "id": "T018",
+    "category": "Silent_Love",
+    "context": "उनले मलाई एयरपोर्टमा छोड्दा एउटा सानो रुमाल दिएकी थिइन्। [pause] आज पाँच वर्ष भयो, त्यो रुमाल अझै मेरो सिरानीमुनि छ। [heavy_sigh] हामीबीच कहिल्यै ‘म तिमीलाई माया गर्छु’ भनिएन, तर हरेक महिना घर पैसा पठाउँदा उनको नाममा एउटा छुट्टै खाम हुन्थ्यो। [pause] उनले मेरो पर्खाइमा आफ्नो जवानी बिताइन्, र मैले उनको सम्झनामा आफ्नो उमेर। [whisper] माया त धेरै थियो, तर भाग्यले हामीलाई सात समुद्र पारिको दूरी लेखिदियो। आज उनी अर्कैकी भइसकिन्… तर त्यो रुमाल अझै मेरो मौन मायाको साक्षी छ।"
+  },
+  {
+    "id": "T019",
+    "category": "Fate_Irony",
+    "context": "मैले त्यो जग्गा बेचेर छोरालाई परदेश पठाएँ, सोचेको थिएँ— बुढेसकालमा छोरोले सुख दिन्छ। [pause] तर छोरा उता गएपछि फोन नै गर्न छोड्यो। [heavy_sigh] आज म रित्तो हात गाउँको पाटीमा सुत्छु र सोच्छु— यदि त्यो जग्गा नबेचेको भए आज एउटा छानो त हुन्थ्यो। [pause] कतिपय निर्णय सुरुमा आशिर्वाद जस्ता लाग्छन्, तर अन्त्यमा अभिशाप बनेर निस्कन्छन्। [whisper] भाग्यले मलाई यस्तो ठाउँमा ल्यायो जहाँ पैसा पनि छैन… र आफ्नै भन्ने छोरो पनि रहेन।"
+  },
+  {
+    "id": "T020",
+    "category": "Self_Confession",
+    "context": "मैले जिन्दगीभर अरूलाई खुसी पार्नमै बिताएँ। [pause] आमाको लागि असल छोरो, श्रीमतीको लागि राम्रो श्रीमान्, बच्चाको लागि आदर्श बा बन्दै [heavy_sigh] म आफैं कहाँ हराएँ, पत्तै पाइनँ। [pause] आज ऐना हेर्दा थाकेको एउटा अपरिचित मान्छे देख्छु— जो रुन चाहन्छ, तर रुन पाउँदैन। [whisper] सबैको जिम्मेवारी पूरा गर्दागर्दै मैले आफ्नै रहरहरूको मलामी जानुपर्‍यो। कस्तो अचम्मको जिन्दगी… सबैको भएँ, तर कहिल्यै आफ्नो हुन सकिनँ।"
+  },
+  {
+    "id": "T021",
+    "category": "Dream_vs_Reality",
+    "context": "मैले एमबिबिएसका लागि ८ वर्ष प्रवेश परीक्षा दिएँ। [pause] हरेक पटक नाम नआउँदा बाले भन्नुहुन्थ्यो— ‘अर्को वर्ष पक्कै हुन्छ।’ [heavy_sigh] तर अन्तिम पटक परीक्षा हलबाट बाहिर निस्किँदा बुझें— अब यो सपना छोड्नुपर्छ। [pause] साथीहरू डाक्टर भइसके, म अझै त्यहीँ अड्किएको छु। [whisper] सपना देख्नु गल्ती थिएन, तर हाम्रो व्यवस्थाले त्यो सपना पूरा हुन दिएन। आज म फार्मेसीमा काम गर्छु— सेतो कोट त लगाउँछु, तर स्टेथोस्कोप होइन।"
+  },
+  {
+    "id": "T022",
+    "category": "Future_Uncertainty",
+    "context": "बिहान अलार्म बज्यो तर म उठिनँ। [pause] किनभने आज फेरि कहाँ जाने, के गर्ने— केही थाहा छैन। [heavy_sigh] स्नातक सकेको ३ वर्ष भयो, तर अझै ‘के बन्ने’ भन्ने प्रश्नको जवाफ छैन। [pause] बा सोध्नुहुन्छ— ‘कति दिन यसै बस्ने?’ म केही भन्न सक्दिनँ, किनकि मलाई आफैलाई थाहा छैन। [whisper] अलार्म त बज्छ हरेक दिन, तर जिन्दगीको दिशा अझै अँध्यारो छ। आज फेरि सुतिरहेँ… किनकि उठेर पनि जाने ठाउँ छैन।"
+  },
+  {
+    "id": "T023",
+    "category": "Struggle_Silently",
+    "context": "म हरेक दिन पसलको ऐनामा मुस्कान अभ्यास गर्छु। [pause] घर पुग्नु अघि त्यो बनावटी हाँसो लगाउनुपर्छ, नत्र आमा चिन्तित हुनुहुन्छ। [heavy_sigh] अन्तर्वार्ता हारेँ, प्रेमले छोड्यो, साथीहरूले बेवास्ता गरे— तर यी कुरा घरमा भन्न मिल्दैन। [pause] आमाले सोध्नुहुन्छ— ‘सबै ठिक छ नि?’ म हाँस्छु र भन्छु— ‘हो आमा, सबै राम्रै छ।’ [whisper] ऐनामा मेरो साँचो अनुहार देखिन्छ, तर घर पुग्दासम्म म मुखौटा लगाइसकेको हुन्छु।"
+  },
+  {
+    "id": "T024",
+    "category": "Education_Pressure",
+    "context": "मेरो प्रवेशपत्र जति पटक मोडेँ, त्यति नै पटक फुकालेर फेरि सीधा पनि पारें। [pause] यो मेरो चौथो प्रयास हो— अघिल्ला तीन पटक असफल भएँ। [heavy_sigh] बा अझै विश्वास गर्नुहुन्छ, तर मलाई आफैंमा भरोसा छैन। [pause] प्रवेशपत्र हेर्दा डर लाग्छ— फेरि असफल भएँ भने घर फर्केर के भन्ने? [whisper] यो कागज हातमा होइन, भविष्यको अन्तिम आशाजस्तो छ। यसलाई मोड्छु र सोच्छु— काश, डर पनि यसैगरी सानो बनाउन सक्थें।"
+  },
+  {
+    "id": "T025",
+    "category": "Responsibility_Weight",
+    "context": "मेरो कापीको छेउमा लेखेको थियो— ‘दुनिया घुम्ने, गितार सिक्ने, किताब लेख्ने।’ [pause] तर आज त्यही पानामा लेख्नुपर्‍यो— ‘घरको ऋण तिर्ने, दिदीको बिहे गर्ने, भाइलाई पढाउने।’ [heavy_sigh] मेरा योजना मेटिए, परिवारका जिम्मेवारीले ठाउँ भर्‍यो। [pause] साथीहरूले सोध्छन्— ‘तिम्रो योजना के छ?’ म भन्छु— ‘अहिले केही छैन।’ [whisper] साँचो त के हो भने मेरो योजना अब मेरो होइन— घरको सूची बनेको छ। कापीको छेउझैँ मेरो जिन्दगी पनि साँघुरो हुँदै गइरहेको छ।"
+  },
+  {
+    "id": "T026",
+    "category": "Loneliness_In_Crowd",
+    "context": "मेरो फोनमा २५० नम्बर छन्। [pause] तर आज राति एक्लो लाग्दा कसैलाई फोन गर्न खोजेँ— स्क्रोल गर्दागर्दै थाकेँ, तर डायल गर्न सकिनँ। [heavy_sigh] सबै जना ‘अनलाइन’ छन्, तर कोही ‘उपलब्ध’ छैन। [pause] फोन बन्द गरेँ र सोचेँ— यति धेरै नाम भएर पनि एउटा मात्रै नम्बर थिच्ने साहस किन भएन? [whisper] स्क्रिनभरि सम्पर्क छन्, तर जिन्दगीभरि सम्बन्ध खाली छ। बाहिर सबै जोडिएको जस्तो, भित्र सबै एक्लै।"
+  },
+  {
+    "id": "T027",
+    "category": "Missed_Moment",
+    "context": "घडीको टिक-टिक सुनिरहेको थिएँ, र फोनमा नपढिएको सन्देश थियो— ‘बाबा, अलि कुरा गर्नुस् न।’ [pause] मैले सोचेँ— ‘पछि जवाफ दिन्छु, अहिले व्यस्त छु।’ [heavy_sigh] भोलिपल्ट बिहान फेरि सन्देश आयो— ‘तपाईंको बा अस्पतालमा भर्ना हुनुभएको छ।’ [pause] त्यो ‘पछि’ कहिल्यै आएन, किनकि बा अब बोल्ने अवस्थामा हुनुहुन्न। [whisper] घडीको हरेक टिकले सोध्छ— त्यो एक मिनेट किन ढिलो गर्यौ? अहिले हजार शब्द टाइप गर्छु… तर अब पठाउने कोही छैन।"
+  },
+  {
+    "id": "T028",
+    "category": "Mother_Sacrifice",
+    "context": "रातको १२ बजिसकेको छ तर भान्साको बत्ती अझै बलिरहेको छ। [pause] आमा सुत्नुभएको छैन, किनभने भोलि मेरो परीक्षा छ र उहाँ मेरो लागि खाना तयार गरिरहनुभएको छ। [heavy_sigh] मैले भनेँ— ‘आमा, सुत्नुस् न, म बिहान बनाउँछु।’ उहाँले भन्नुभयो— ‘तिमी पढ, यो म गरिहाल्छु।’ [pause] बत्ती निभाउन जाँदा देखें— आमा कुनामा आँखा मिचेर झपक्कै निदाएको अवस्थामा पनि तरकारी काटिरहनुभएको रहेछ। [whisper] त्यो बत्ती मात्र होइन, आमाको माया पनि रातभर बलिरहन्छ। मेरो सफलताको मसी… आमाको निद्राबाट निस्किएको रहेछ।"
+  },
+  {
+    "id": "T029",
+    "category": "Father_Struggle",
+    "context": "बा बिहान टिफिन लिएर जानुहुन्छ, तर साँझ फर्केर आउँदा त्यो डब्बा पूरै जसको तसै हुन्छ। [pause] सुरुमा मैले सोचेँ— ‘अफिसमा खानुभएन होला।’ तर एकदिन बाको सहकर्मीले भन्यो— ‘तपाईंको बाले आफ्नो खाना अरू मजदुरलाई दिनुहुन्छ।’ [heavy_sigh] मैले सोध्दा बाले हाँसेर भन्नुभयो— ‘अफिसमा बस्दा भोक लाग्दैन।’ [pause] तर साँचो कुरा— बा अरूको पेट भर्दै आफू भोकै बस्नुहुन्छ। [whisper] त्यो नखुल्ने टिफिन मेरो लागि सन्देश हो— बाको माया आफ्नै पेटभन्दा पनि ठूलो रहेछ।"
+  },
+  {
+    "id": "T030",
+    "category": "Middle_Class_Reality",
+    "context": "तलब आउने दिन बाले एउटा ठूलो नोट तीनवटा खाममा बाँड्नुहुन्छ। [pause] एउटामा लेखिएको हुन्छ ‘ऋण’, अर्कोमा ‘घरखर्च’, तेस्रोमा ‘बच्चाको पढाइ’। [heavy_sigh] बाको आफ्नै लागि कुनै खाम हुँदैन, किनकि जे बाँकी रहन्छ त्यो ‘आपतकाल’ भनेर राख्नुहुन्छ। [pause] एकदिन मैले सोधेँ— ‘बा, तपाईंको लागि केही छैन?’ उहाँले हाँस्दै भन्नुभयो— ‘तिमीहरू खुसी छौ भने म खुसी छु।’ [whisper] ती तीनवटा खामले मलाई सिकाए— मध्यमवर्गमा आत्म-हेरचाह विलासिता हो, जिम्मेवारी नै प्राथमिकता हो।"
+  },
+  {
+    "id": "T031",
+    "category": "Silent_Love",
+    "context": "मैले उसको जन्मदिनका लागि एउटा उपहार किनेर राम्ररी बेरेँ। [pause] कलेज पुगेपछि देखें— उसको प्रेमीले ठूलो फूलको गुच्छा दिइसकेको रहेछ। [heavy_sigh] मेरो सानो उपहार उसको अगाडि कस्तो देखिन्थ्यो? मैले झोलामै लुकाएँ। [pause] घर आउँदा त्यो बेरिएको उपहार अझै झोलामै छ— अब खोल्ने हिम्मत छैन। [whisper] कति विडम्बना— जसका लागि किनेको, उसले कहिल्यै देख्न पाएन। र अब मेरो कोठामा धुलो बन्दैछ। त्यो नदिइएको उपहार… मेरो नबोलेको मायाको चिनो बनेको छ।"
+  },
+  {
+    "id": "T032",
+    "category": "Fate_Irony",
+    "context": "मैले आवेदन दिएको कम्पनीको अन्तर्वार्तामा ढिलो भएँ, किनकि कार्यालयको ढोका बन्द थियो। [pause] रिसले घर फर्किएँ र सोचेँ— ‘आज चाहिँ किन यस्तो?’ [heavy_sigh] भोलिपल्ट समाचार आयो— त्यही कम्पनीमा छापा परेको रहेछ, ठगीको मुद्दा लागेको रहेछ। [pause] हिजो ढोका बन्द भएकोमा गाली गरेको थिएँ, आज त्यही बन्द ढोकाले मलाई ठूलो फसादबाट बचायो। [whisper] कहिलेकाहीँ रोक्ने ढोका पनि बचाउने हात बन्छ। त्यो छुटेको अवसर… वास्तवमा मेरो लागि चेतावनी रहेछ।"
+  },
+  {
+    "id": "T033",
+    "category": "Self_Confession",
+    "context": "बाथरुमको ऐनामा आफूलाई हेर्छु— आँखा रातो छन्, अनुहार भारी छ। [pause] सबैलाई देखाउँछु— ‘सबै ठिक छ,’ तर ऐनासामु म आफैसँग झुट बोल्न सक्दिनँ। [heavy_sigh] ऐनाले थकान, डर, र निराशा सबै देखाइदिन्छ। [pause] ऐनालाई भन्छु— ‘तिमी मात्रै मेरो साँचो अनुहार चिन्छौ,’ किनकि बाहिर त म मुखौटा लगाएर हिँड्छु। [whisper] आँखाले सोध्दैछ— ‘कहिलेसम्म यो नाटक गर्ने?’ तर ऐना चुप छ… किनकि उत्तर मलाई आफैभित्र खोज्नुपर्छ।"
+  },
+  {
+    "id": "T034",
+    "category": "Dream_vs_Reality",
+    "context": "मेरो कोठाको भित्तामा सपनाको पाटी छ— लक्ष्य, तस्बिर, योजना। [pause] तर अहिले त्यसमा धुलोको तह बसिसकेको छ, किनभने ती सपना कहिले पूरा होलान् थाहा छैन। [heavy_sigh] कहिले ‘फोटोग्राफर बन्ने’ लेखेको थिएँ, आज कार्यालयको क्युबिकलमा डेटा टिप्दैछु। [pause] त्यो पाटी हेर्दा अपराधबोध हुन्छ— मानौँ मैले आफ्नै सपनालाई धोका दिएँ। [whisper] धुलोले ढाकिएको त्यो पाटी… मेरा छोडिएका सपनाको सम्झना हो। सपना त्यहीँ छन्, तर पुग्ने बाटो धमिलो भइसकेछ।"
+  },
+  {
+    "id": "T035",
+    "category": "Future_Uncertainty",
+    "context": "सडकमा एउटा सङ्केतपट्टि देख्छु— दुईवटा बाटो देखाएको। [pause] बायाँतिर ‘सुरक्षित जागिर’, दायाँतिर ‘सपनाको काम’। [heavy_sigh] सुरक्षित बाटो लिँदा मन मर्छ, सपनाको बाटो लिँदा घर डुब्छ। [pause] त्यो सङ्केतपट्टिसामु धेरै बेर उभिन्छु, तर निर्णय गर्न सक्दिनँ। [whisper] जिन्दगी पनि त्यस्तै हो— बाटो देखिन्छ, तर कुन रोज्ने भन्ने डरले खुट्टा थामिन्छ। आज पनि म यहीँ अड्किएको छु… डर र जिम्मेवारीको बीचमा।"
+  },
+  {
+    "id": "T036",
+    "category": "Struggle_Silently",
+    "context": "बसमा उभिएर जाँदा म झोलाको पट्टा चाहिएकोभन्दा धेरै कडा समातिरहेको हुन्छु। [pause] झोला भारी होइन, तर मेरो तनाव यति धेरै छ कि हात आफैं कसिन्छ। [heavy_sigh] अगाडि बसेको मान्छेले सोध्यो— ‘के भयो, झोला धेरै भारी छ?’ मैले बनावटी हाँसो दिएँ— ‘होइन, अलि थकान मात्रै।’ [pause] तर साँचो त के हो भने झोला होइन… मेरो जिन्दगीको बोझले यसरी समात्न बाध्य बनाएको हो। [whisper] हातको त्यो कसिलो पकड… भित्रको डरको संकेत हो। कसैले देख्दैन, तर मेरो हातलाई सबै थाहा छ।"
+  },
+  {
+    "id": "T037",
+    "category": "Education_Pressure",
+    "context": "मेरो पाठ्यक्रमको किताब खोल्छु र देख्छु— कालो कलमभन्दा रातो चिनो धेरै छ। [pause] रातो चिनोको अर्थ— ‘अझै बाँकी’, ‘अझै बुझिनँ’, ‘फेरि दोहोर्याउनुपर्छ।’ [heavy_sigh] परीक्षा नजिकिँदै छ, तर धेरै पाना अझै रातै छन्। [pause] हरेक पाना पल्टाउँदा ती रातो चिनाले मलाई गाली गरिरहेजस्तो लाग्छ— ‘अझै गरेनौ!’ [whisper] कालोले प्रगति देखाउँछ, रातोले डर। मेरो किताबमा रातो धेरै छ… र मनमा शान्ति कम।"
+  },
+  {
+    "id": "T038",
+    "category": "Responsibility_Weight",
+    "context": "आज कोठा सफा गर्दा दराज खोलें र बाल्यकालका तस्बिर भेटेँ— थुपारेर राखिएका। [pause] ती तस्बिरमा मेरो हाँसो साँचो थियो, चिन्ता थिएन, जिम्मेवारी थिएन। [heavy_sigh] अब ती तस्बिर दराजमै थुनिएका छन्, किनकि बाल्यकाल पनि त्यहीँ बन्द भइसकेछ। [pause] एउटा तस्बिरमा म खेलमैदानमा दौडिरहेको छु, आज म कार्यालयको कुर्सीमा बसिरहेको छु। [whisper] दराजमा थुपारिएका ती तस्बिर… मेरो हराएको निर्दोषपनाको चिनो हुन्। जिम्मेवारीले बाल्यकाललाई चुपचाप बन्द गरिदिएछ।"
+  },
+  {
+    "id": "T039",
+    "category": "Loneliness_In_Crowd",
+    "context": "कलेजको गलियारा हुँदै हिँड्दा चिनेजाना अनुहार देख्छु, तर कसैले आँखा जुधाउँदैन। [pause] सबै आफ्नो फोनमा व्यस्त छन्, वा आफ्नै समूहमा हाँसिरहेका छन्। [heavy_sigh] म पनि त यही कलेजको विद्यार्थी हुँ, तर किन हो— अदृश्य भएको जस्तो लाग्छ। [pause] एकजना साथी भेटियो, म ‘नमस्ते’ भन्न खोज्दा उसले कानमा इयरफोन घुसाएर सिधै हिँड्यो। [whisper] चिनेजाना अनुहार, तर जुध्न नसक्ने आँखाहरू… भिडभित्रको एक्लोपन यही हो।"
+  },
+  {
+    "id": "T040",
+    "category": "Missed_Moment",
+    "context": "बस स्टपमा उभिएर बस आउँदै गरेको देखेँ। [pause] तर मनमा अलि हिच्किचाहट भयो— ‘यो बस चढ्ने कि अर्को कुर्ने?’ [heavy_sigh] सोच्दासोच्दै बस छुट्यो र धुवाँ छोड्दै टाढा गयो। [pause] अर्को बस एक घण्टापछि मात्र आउने रहेछ, र मेरो योजना त्यहीँ बिग्रियो। [whisper] केही सेकेन्डको हिच्किचाहटले दिनभरको तालिका उल्टिन्छ। जिन्दगीमा पनि यस्तै हुन्छ— ढिलाइभन्दा खतरनाक… हिच्किचाहट हुन्छ।"
+  },
+  {
+    "id": "T041",
+    "category": "Mother_Sacrifice",
+    "context": "खानाको टेबुलमा आमा सबैलाई परोसिरहनुभएको छ— बालाई, मलाई, भाइलाई। [pause] तर आफ्नो थाल तयार गर्नुभएन। [heavy_sigh] मैले सोधेँ— ‘आमा, तपाईं खानुभएन?’ उहाँले भन्नुभयो— ‘म पछि खान्छु, तिमीहरू सकिहाल।’ [pause] तर हामी सकिँदा केही बाँकी रहेन। आमा फेरि पनि आफ्नै लागि केही छोड्नुभएन। [whisper] सबैलाई परोस्ने हात… तर आफ्नो थाल खाली। यही आमाको दैनिक त्याग हो— आफ्नो पेट होइन, हाम्रो खुसी उहाँको पहिलो प्राथमिकता।"
+  },
+  {
+    "id": "T042",
+    "category": "Father_Struggle",
+    "context": "बा साँझ घर आउनुहुन्छ, तर कामको झोला तुरुन्त ओछ्यानमा राख्नुहुन्न। [pause] ढोका खोल्नुहुन्छ, हामीसँग कुरा गर्नुहुन्छ, टेलिभिजनतिर एकछिन हेर्नुहुन्छ, र सबै सुतेपछि मात्र झोला राख्नुहुन्छ। [heavy_sigh] मैले सोधेँ— ‘बा, किन यति ढिलो झोला राख्नुहुन्छ?’ उहाँले भन्नुभयो— ‘जबसम्म तिमीहरू जागा छौ, मलाई लाग्छ मेरो जिम्मेवारी अझै सकिएको छैन।’ [pause] बा विश्राम गर्न चाहनुहुन्छ, तर विश्राम… घर सुतिसकेपछि मात्रै आउँछ। [whisper] झोला राख्ने त्यो क्षण… बाको थकानको प्रमाण हो।"
+  },
+  {
+    "id": "T043",
+    "category": "Middle_Class_Reality",
+    "context": "टेबुलमा बिलहरू छरिएका छन्— बिजुली, पानी, फोन, किराना, सबै। [pause] आमा र बा सावधानीसँग छुट्याउँदै क्याल्कुलेटरमा हिसाब गरिरहनुभएको छ। [heavy_sigh] हरेक बिलको प्राथमिकता तय हुन्छ— ‘यो तिर्नैपर्छ’, ‘यो अलि ढिला गरौँ’, ‘यो काटौँ।’ [pause] म हेरिरहन्छु— बिल मिलाउने त्यो सानो कामभित्र कति ठूलो तनाव लुकेको छ। [whisper] बिलहरूको थुप्रो… मध्यमवर्गको मासिक संस्कार हो। पैसा कमाउने भन्दा गाह्रो— पैसा मिलाउने रहेछ।"
+  },
+  {
+    "id": "T044",
+    "category": "Silent_Love",
+    "context": "उ कलेजको गेटबाट निस्किरहेको छ, म अलि टाढाबाट हेर्दैछु। [pause] हात हल्लाउने मन भयो, तर उठाइनँ— किनकि ऊ आफ्नै संसारमा छ। [heavy_sigh] यसरी हेर्दै धेरै महिना बितिसक्यो— नजिकै भएर पनि टाढाजस्तो। [pause] साथीले सोध्यो— ‘किन गएर बोल्दैनौ?’ मैले भनेँ— ‘समय मिलेन।’ तर सत्य के हो भने— साहस मिलेन। [whisper] टाढैबाट हेर्ने बानी… मेरो मौन मायाको दिनचर्या हो। बोल्ने हिम्मत छैन, तर हेर्न छोड्ने सामर्थ्य पनि छैन।"
+  },
+  {
+    "id": "T045",
+    "category": "Fate_Irony",
+    "context": "गाडी चलाउँदै गर्दा गलत मोड लागेछ। [pause] नक्सामा देखाएको बाटो होइन, अलि घुमाउरो पर्‍यो। [heavy_sigh] रिसले फर्कन खोज्दा देखें— मुख्य सडकमा ठूलो दुर्घटना भएको रहेछ। [pause] मेरो त्यो गलत मोडले मलाई त्यही दुर्घटनाबाट बचाएछ। [whisper] कहिलेकाहीँ गल्ती पनि रक्षा बन्छ। जसलाई ‘भुल’ ठानेको थिएँ, त्यो नै ‘सुरक्षा’ रहेछ। आज म बाँचिरहेको छु… एउटा गलत मोडको कारण।"
+  },
+  {
+    "id": "T046",
+    "category": "Self_Confession",
+    "context": "म अगाडि हिँडिरहेको छु, तर बारम्बार पछाडि फर्केर हेर्छु। [pause] किनभने अगाडि जे छ, त्यसमा विश्वास छैन; पछाडि जे छोडेको छु, त्यो सम्झना आउँछ। [heavy_sigh] यो बानीले मलाई कहिल्यै पूरा अगाडि जान दिँदैन। [pause] साथीले भन्यो— ‘अगाडि हेर।’ तर म सक्दिनँ, किनकि मन अझै अतीतमै अड्किएको छ। [whisper] शरीर अगाडि बढ्छ, तर विचार पछाडि। म हिँड्छु… तर गन्तव्य होइन, सम्झनाले तान्छ। आज पनि म आफ्नै अतीतको छायाँ बोकेर हिँडिरहेको छु।"
+  },
+  {
+    "id": "T047",
+    "category": "Dream_vs_Reality",
+    "context": "मेरो कापीको अन्तिम पानामा लक्ष्य लेखेको छु। [pause] सुरुमा ठूलो अक्षरमा थियो— ‘देशको सेवा गर्ने ठूलो अधिकृत बन्ने।’ तर अहिले ठाउँ सकिँदै गर्दा साना अक्षरमा लेख्नुपरिरहेको छ। [heavy_sigh] लक्ष्य उही छ, तर विश्वास घट्दै गइरहेको छ। [pause] ठूलो सपना सानो ठाउँमा कसरी अटाउने? [whisper] कापीमा अक्षर साना भएजस्तै… मेरो हिम्मत पनि सानो हुँदै गएको छ। सपना अझै बाँकी छ, तर सास फेर्ने ठाउँ कम हुँदैछ।"
+  },
+  {
+    "id": "T048",
+    "category": "Future_Uncertainty",
+    "context": "मेरो कम्प्युटरमा जीवनवृत्तान्त राखिएको छ— ‘अन्तिम_जीवनवृत्तान्त_२०२४.docx’। [pause] तर त्यो फाइल कहिल्यै पठाइएन, किनकि मनमा विश्वास छैन— यो पर्याप्त छ कि छैन। [heavy_sigh] हरेक दिन फाइल खोल्छु, परिमार्जन गर्छु, फेरि बचत गर्छु… तर पठाउँदिनँ। [pause] कति दिनसम्म यसरी बस्ने? थाहा छैन। [whisper] नपठाइएको जीवनवृत्तान्त… मेरो अस्वीकृतिको डर हो। प्रयास गर्न डराउँछु, किनकि असफल हुन डर लाग्छ।"
+  },
+  {
+    "id": "T049",
+    "category": "Struggle_Silently",
+    "context": "ढाड दुखिरहेको छ, तर म पीडानाशक खाएर सामान्य जस्तै काम गर्छु। [pause] कसैलाई भन्दिनँ— सहानुभूति होइन, बस् काम गर्न सक्नु पर्छ। [heavy_sigh] कार्यालयमा सहकर्मीले सोध्यो— ‘ठिक छौ?’ मैले भनें— ‘हो, ठीकै छु।’ तर भित्र दुखाइले चिच्याइरहेको हुन्छ। [pause] औषधिले केही घण्टा दुखाइ थाम्छ, तर समस्या त्यहीँ रहन्छ। [whisper] बोलिनँ भने दुख देखिन्न भन्ने भ्रममा बाँच्दैछु। मौन हुनु बानी होइन… बाध्यता बनेको छ।"
+  },
+  {
+    "id": "T050",
+    "category": "Education_Pressure",
+    "context": "म राति अबेरसम्म उत्तरपुस्तिका जस्तै गरी अभ्यास लेख्दैछु। [pause] दिनमा लेखेको थिएँ, तर गल्ती भयो— अब फेरि ‘सही’ बनाउन खोज्दैछु। [heavy_sigh] घडीमा २ बज्यो, तर अझै पूरा छैन। पूर्णताको दबाबले निद्रा चोरेको छ। [pause] आमाले ढोका ढकढक्याएर सोध्नुभयो— ‘सुत्ने कि नि?’ मैले भनें— ‘अलि पछि।’ [whisper] सत्य के हो भने— अझै मन सन्तुष्ट छैन। डर छ— ‘यति गरेर पनि पुग्ला कि नपुग्ला?’"
+  },
+  {
+    "id": "T051",
+    "category": "Responsibility_Weight",
+    "context": "आज रातको खाना एकदमै मौन थियो। [pause] कसैले केही बोलेन, तर सबैलाई थाहा थियो— एउटा निर्णय लिनुपर्छ। [heavy_sigh] खाना सकेपछि बाले सोध्नुभयो— ‘के निर्णय लियौं?’ [pause] दिदीको बिहे अगाडि बढाउने कि मेरो पढाइ जारी राख्ने— एउटा मात्रै छान्न सकिन्छ। [whisper] कसैले आफ्नो प्राथमिकता भन्न सकेन, किनकि सबै त्याग गर्न तयार थिए। त्यो मौनतामै निर्णय लुकेको थियो। आज पनि त्यो टेबुल सम्झँदा… आवाज होइन, मौनताले कान बज्छ।"
+  },
+  {
+    "id": "T052",
+    "category": "Loneliness_In_Crowd",
+    "context": "क्यान्टिनमा मानिसहरूको बीचमा बसेको छु, कानमा हेडफोन छ… तर गीत बजिरहेको छैन। [pause] किनभने बोलचाल गर्न मन छैन, तर एक्लो देखिन पनि चाहन्नँ। [heavy_sigh] वरिपरि हाँसो छ, कुरा छ, तर म आफ्नै मौन बुलबुलामा छु। [pause] हेडफोन नै मेरो बहाना हो— ‘म सुनिरहेको छु, नबोल।’ [whisper] मानिसबीच बसेर पनि एक्लो रहने यो चाल… मेरो सुरक्षा कवच बनेको छ। बाहिर उपस्थित, भित्र अनुपस्थित।"
+  },
+  {
+    "id": "T053",
+    "category": "Missed_Moment",
+    "context": "फोन बजिरहेको छ, स्क्रिनमा ‘आमा’ देखिन्छ। [pause] तर म बैठकमा छु भनेर मैले चुपचाप काटिदिएँ— ‘पछि गर्छु’ सोचेर। [heavy_sigh] बैठकपछि फोन गर्दा आमा उठ्नुभएन। [pause] छिमेकीले फोन गरेर भन्यो— ‘तपाईंकी आमा अस्पताल लगिएको छ।’ [whisper] त्यो एक सेकेन्डको निर्णयले सबै कुरा बदलिदियो। ‘पछि’ भनेर काटेको फोन… आजसम्म मेरो पछुतो बनेको छ। म आमा बोल्दा व्यस्त थिएँ, आमा चुप हुँदा… म खाली भएँ।"
+  },
+  {
+    "id": "T054",
+    "category": "Mother_Sacrifice",
+    "context": "आमाको हात काँपिरहेको छ, तर फेरि पनि लुगा इस्त्री गरिरहनुभएको छ। [pause] मैले भनेँ— ‘आमा, म आफै गरिहाल्छु।’ उहाँले भन्नुभयो— ‘होइन होइन, म गरिदिन्छु।’ [heavy_sigh] गठिया छ, डाक्टरले विश्राम गर्न भनेको छ, तर आमाले मान्नुहुन्न। [pause] हरेक पटक इस्त्री चलाउँदा हात काँप्छ, तर काम रोक्नुहुन्न। [whisper] त्यो काँप्ने हातले मलाई सिकाउँछ— आमाले दुखाइसँग सम्झौता गरिन्, तर हाम्रो राम्रोसँग होइन। प्रेमले कहिलेकाहीँ औषधिभन्दा पनि बलियो भएर काम गर्छ।"
+  },
+  {
+    "id": "T055",
+    "category": "Father_Struggle",
+    "context": "बा सोफामा बस्नुभएको छ, आँखाहरू दुई सेकेन्डका लागि बन्द गर्नुहुन्छ— सायद विश्राम गर्दै। [pause] तर फेरि तुरुन्तै आँखा खोलेर उठ्नुहुन्छ। [heavy_sigh] मैले भनेँ— ‘बा, अलि सुत्नुस् न।’ उहाँले भन्नुभयो— ‘हुँदैन, अझै काम बाँकी छ।’ [pause] हरेक दिन यही— विश्राम गर्न खोज्नुहुन्छ, तर आफैलाई अनुमति दिनुहुन्न। [whisper] त्यो दुई सेकेन्डको आँखाबन्द… बाको थकानको बयान हो। पूरा विश्राम उहाँका लागि सपना जस्तै छ— देखिन्छ, तर पाइँदैन।"
+  },
+  {
+    "id": "T056",
+    "category": "Middle_Class_Reality",
+    "context": "अनलाइन किनमेलको टोकरीमा सामान थुपारेँ— नयाँ जुत्ता, हुडी, हेडफोन। [pause] ‘भुक्तानी’ थिच्न लाग्दा जम्मा रकम देखेँ— ‘रु. ८,५००’। [heavy_sigh] खाताको रकम पर्याप्त थियो, तर सम्झिएँ— यही त अर्को महिनाको भाडा हो। [pause] एक-एक गरेर सामान हटाएँ— जुत्ता हट्यो, हुडी हट्यो, अन्त्यमा टोकरी खाली भयो। [whisper] मध्यमवर्गको सपना टोकरीभरि हुन्छ, तर भुक्तानी हुँदैन। चाहना साँचो हो, तर प्राथमिकता कठोर। आज फेरि मैले आफूलाई होइन… जिम्मेवारीलाई छानेँ।"
+  },
+  {
+    "id": "T057",
+    "category": "Silent_Love",
+    "context": "हरेक दिन आमाले मेरो लागि खाना बाँधिदिनुहुन्छ, टिफिन तयार राखिदिनुहुन्छ। [pause] म कहिल्यै ‘धन्यवाद’ भन्दिनँ, किनकि यो दिनचर्या भइसकेको छ। [heavy_sigh] तर एकदिन आमा बिरामी हुनुभयो, र टिफिन मैले आफै बाँध्नुपर्‍यो— त्यो दिन बुझेँ, कति गाह्रो रहेछ। [pause] अब हरेक दिन देख्छु— आमाको त्यो मौन माया, जसलाई म वर्षौँदेखि बेवास्ता गरिरहेको थिएँ। [whisper] दिनहुँ दोहोरिने काम पनि प्रेमकै भाषा हो। बोल्दैन, तर कहिल्यै रोकिन्न।"
+  },
+  {
+    "id": "T058",
+    "category": "Fate_Irony",
+    "context": "स्टेसनमा रेल ३० मिनेट ढिलो भयो। [pause] मलाई रिस उठ्यो— महत्वपूर्ण भेटघाट थियो। [heavy_sigh] तर केहीबेरपछि खबर आयो— अगाडि लाइनमा दुर्घटना भएको रहेछ, र हाम्रो रेल ढिलो भएकै कारण बच्यो। [pause] त्यो ढिलाइ नभएको भए… हामी पनि त्यसैमा पर्न सक्थ्यौँ। [whisper] जसलाई ‘समयको बर्बादी’ ठानेको थिएँ, त्यही समयले ज्यान जोगायो। कहिलेकाहीँ ढिलाइ पनि सुरक्षा हुन्छ— र हामीलाई थाहा नै हुँदैन।"
+  },
+  {
+    "id": "T059",
+    "category": "Self_Confession",
+    "context": "हरेक दिन उठ्छु, तयार हुन्छु, कार्यालय जान्छु— बाहिरबाट यो सामान्य दिनचर्या हो। [pause] तर यो दिनचर्याभित्र डर लुकेको छ। [heavy_sigh] जागिर जाला कि नजाला, काम ठीक छ कि छैन, हाकिम खुसी छ कि छैन— मनमा सधैं त्रास। [pause] बाहिरबाट आत्मविश्वासी देखिन्छु, तर भित्र सधैं चिन्ताले दौडिरहेको हुन्छ। [whisper] सामान्य देखिने चालहरूभित्र… डरको आवाज बजिरहेको छ। म हाँस्छु, काम गर्छु, बोल्छु… तर भित्र मन सधैं ‘के भोलि पनि हुन्छ?’ भन्दै काँप्छ।"
+  },
+  {
+    "id": "T060",
+    "category": "Dream_vs_Reality",
+    "context": "डायरीमा लक्ष्य लेखेको छु— ‘सफल उद्यमी बन्ने।’ [pause] तर केही दिनपछि त्यही पाना खोल्छु र त्यो लाइनलाई हल्का काटिदिन्छु। [heavy_sigh] पुरै मेटेको होइन, किनकि आशा अझै बाँकी छ। तर शंका यति धेरै छ कि हात आफैं काँप्छ। [pause] आधा आशा, आधा डर— बीचमै अड्किएको। [whisper] हल्का काटिएको त्यो वाक्य… मेरो डगमगाएको आत्मविश्वास हो। न छोड्न सक्ने, न अँगाल्न सक्ने। सपना अझै छ… तर हिम्मत घट्दै छ।"
+  },
+  {
+    "id": "T061",
+    "category": "Future_Uncertainty",
+    "context": "चोकमा उभिएको छु जहाँ कुनै सङ्केतपट्टि छैन। [pause] कुन बाटो जाने— बायाँ, दायाँ, सिधा कि फर्किने— केही थाहा छैन। [heavy_sigh] मानिसहरू आ-आफ्नो बाटो लिएर हिँडिरहेका छन्, तर म यहीँ जाम भएको छु। [pause] कति बेरसम्म यसै उभिरहने? निर्णय त लिनै पर्छ, तर कुन सही हो भन्ने विश्वास छैन। [whisper] विकल्पहरू छन्, तर स्पष्टता छैन। मन डराउँछ— गलत मोडले जिन्दगी फेरि धेरै पर धकेल्ने हो कि भनेर।"
+  },
+  {
+    "id": "T062",
+    "category": "Struggle_Silently",
+    "context": "मलाई सोधिन्छ— ‘कस्तो छ?’ म टाउको हल्लाएर भन्छु— ‘ठिक छ।’ [pause] तर त्यो ‘ठिक छ’ भित्र कति संघर्ष छ, कसैलाई थाहा छैन। [heavy_sigh] साँचो उत्तर दिन सक्थेँ, तर दिँदिनँ— किनकि अरूलाई बोझ बनाउन मन छैन। [pause] टाउको हल्लाउनु सजिलो छ, सत्य बोल्नु गाह्रो। [whisper] ‘ठिक छ’ भन्ने शब्द मेरो ढाल बनेको छ। भित्र आँधी छ, बाहिर मौन। म अगाडि बढ्छु… तर आफ्नो दुःखसँगै।"
+  },
+  {
+    "id": "T063",
+    "category": "Education_Pressure",
+    "context": "उही परीक्षा किताब फेरि खोलेको छु— उही पाठ्यक्रम, उही पाना, तेस्रो पटक असफल भएपछि। [pause] पहिलो पटक आशा थियो, दोस्रो पटक जिद्दि थियो, तेस्रो पटक अब बेबसता छ। [heavy_sigh] फेरि सुरु गर्दैछु, तर अब विश्वासले होइन… बाध्यताले। [pause] किताबले मलाई हेरिरहेको जस्तो लाग्छ— ‘फेरि तिमी?’ [whisper] यो निरन्तरता हो कि जिद्दि— थाहा छैन। तर छोड्न पनि सक्दिनँ, किनकि मसँग विकल्प छैन। फेरि पढ्नुको बाहेक बाटो छैन।"
+  },
+  {
+    "id": "T064",
+    "category": "Responsibility_Weight",
+    "context": "निर्णय लिनुपर्ने थियो— जोखिम उठाएर व्यवसाय सुरु गर्ने कि सुरक्षित जागिर रोज्ने। [pause] मन जोखिमतिर थियो, तर घरको अवस्थाले सुरक्षित बाटो रोज्न बाध्य पार्‍यो। [heavy_sigh] छलफल पनि भएन, निर्णय आफैं भयो— किनकि जिम्मेवारीसँग जुवा खेल्न मिल्दैन। [pause] यो मेरो चाहना होइन, परिवारको आवश्यकता थियो। [whisper] कहिलेकाहीँ स्वतन्त्रता कागजमा मात्र हुन्छ। वास्तविकतामा निर्णय… पेट, ऋण, र घरले गर्छ। र हामी बस् त्यसलाई ‘सम्झौता’ भनेर बाँच्छौँ।"
+  },
+  {
+    "id": "T065",
+    "category": "Loneliness_In_Crowd",
+    "context": "साथीहरूको समूहमा बसेको छु, सबै हाँसिरहेका छन्। [pause] म पनि हाँसिरहेको छु, तर मेरो आँखा कतै अरै छ। [heavy_sigh] शरीर उपस्थित छ, मन अनुपस्थित— कसैले याद गरेन। [pause] हाँसो छ, तर जोडिएको महसुस छैन। [whisper] यो बनावटी सहभागिता हो। उपस्थित हुनु र सम्बन्धित हुनु फरक रहेछ। म भिडमा छु… तर एक्लोपन मनमै छ। बाहिर हाँसो, भित्र खालीपन।"
+  },
+  {
+    "id": "T066",
+    "category": "Missed_Moment",
+    "context": "सन्देश टाइप गर्दै थिएँ— भन्नुपर्ने धेरै कुरा थियो। [pause] तर ‘पठाउने’ थिच्नु अघि रोकिएँ, फेरि पढेँ, फेरि मिलाएँ। [heavy_sigh] अन्त्यमा ‘पठाउने’ नथिचेर मेटिदिएँ। [pause] किन? किनकि त्यो क्षण ‘ठीक’ लागेन। तर ठीक क्षण कहिल्यै आएन। [whisper] त्यो हिच्किचाहटले अवसर चो¥यो। नपठाइएको सन्देश अब पछुतो बनेर बसेको छ। साहस भएको भए… सायद जिन्दगी नै फरक हुन्थ्यो।"
+  },
+  {
+    "id": "T067",
+    "category": "Mother_Sacrifice",
+    "context": "आमा थकित हुनुहुन्छ, आँखामा कमजोरी प्रष्ट छ। [pause] तर फेरि पनि मलाई हौसला दिँदै भन्नुहुन्छ— ‘तिमी त धेरै राम्रो गर्छौ, अझै राम्रो हुन्छ।’ [heavy_sigh] उहाँको स्वरमा ऊर्जा छैन, तर शब्दमा आशा छ। [pause] मेरो लागि शक्ति बन्नुभएको छ, तर उहाँको शक्ति कसले भर्छ? [whisper] थकाइका बीच पनि आउने त्यो हौसला… आमाको निःस्वार्थ प्रेम हो। आफू कमजोर भएर पनि मलाई बलियो बनाउने कोशिश। मेरो साहस… आमाको त्यागबाट बनेको रहेछ।"
+  },
+  {
+    "id": "T068",
+    "category": "Father_Struggle",
+    "context": "बाले जिम्मेवारी बोकेर हिँडिरहनुभएको छ— हरेक दिन, हरेक घडी। [pause] तर कसैले ताली बजाउँदैन, कसैले ध्यान पनि दिंदैन। [heavy_sigh] यो मौन कर्तव्य हो— बिना प्रशंसा, बिना कदर। [pause] बा गुनासो गर्नुहुन्न, किनकि उहाँलाई लाग्छ— यो त ‘उनको काम’ हो। [whisper] तर म बुझ्दैछु— बाको यो चुपचाप लडाइँ नै हाम्रो घरको जग हो। न देखिने वीरता… यही हो।"
+  },
+  {
+    "id": "T069",
+    "category": "Middle_Class_Reality",
+    "context": "महिनाको अन्त्यमा खर्च समीक्षा गर्ने समय आउँछ। [pause] आमा र बा सँगै बसेर हरेक खर्च दुईचोटि जाँच्नुहुन्छ। [heavy_sigh] ‘यो जरुरी थियो कि थिएन’, ‘यो बचाउन सकिन्थ्यो’, ‘अर्को महिना कम गरौँ’— यस्तै कुराकानी। [pause] हरेक पैसाको हिसाब हुन्छ, कुनै खर्च लापरवाही हुँदैन। [whisper] मध्यमवर्गको अनुशासन विलासिता होइन— बाध्यता हो। हरेक निर्णय हिसाबले चल्छ, र त्यो हिसाबले… कहिलेकाहीँ मन पनि थाक्छ।"
+  },
+  {
+    "id": "T070",
+    "category": "Silent_Love",
+    "context": "ऊ गलियाराबाट हिँडेर जाँदैछ, म आवाज दिन सक्थेँ। [pause] तर दिइनँ, बस् पाइला टाढिँदै गएको सुनेँ। [heavy_sigh] किन बोलाइनँ? किनकि शब्द छन्, तर साहस छैन। [pause] जति टाढा जान्छ, उति मुटु धड्किन्छ, तर म फेरि पनि चुप लागेर बस्छु। [whisper] पाइला हराउँदै जाँदा पनि नबोल्नु… मेरो मौन हार हो। मौका थियो, तर लिइनँ। ऊ जान्छ… र म पछुतोमा डुब्छु।"
+  },
+  {
+    "id": "T071",
+    "category": "Fate_Irony",
+    "context": "कागजातमा सानो त्रुटि भयो— एउटा अक्षरको गल्ती। [pause] त्यसैले दर्ता अस्वीकार भयो र फेरि बुझाउनुपर्‍यो। [heavy_sigh] त्यो बेला झर्को लाग्यो। तर पछि थाहा भयो— जुन दिन बुझाउनुपर्ने थियो, त्यही दिन प्रणाली नै बिग्रिएको रहेछ। [pause] मेरो गल्तीले मलाई ठूलो क्षतिबाट बचायो। [whisper] कहिलेकाहीँ अपूर्णता नै सुरक्षा बन्छ। जसलाई दोष ठानेको थिएँ, त्यो संरक्षण रहेछ। आज सोच्दा… त्यो सानो गल्तीलाई धन्यवाद भन्न मन लाग्छ।"
+  },
+  {
+    "id": "T072",
+    "category": "Self_Confession",
+    "context": "आँखामा थकान प्रष्ट छ, शरीर भारी छ, तर काम रोकिँदैन। [pause] घण्टौँ स्क्रिन हेर्दा अक्षर धमिलो देखिन्छ। [heavy_sigh] विश्राम लिन सक्थेँ, तर लिँदिनँ। [pause] किन? किनकि समयसीमा छ, अपेक्षा छ, जिम्मेवारी छ। [whisper] थकाइका बीच पनि अघि बढ्नु… मेरो बाध्यता हो। शरीरले ‘बस’ भन्छ, मनले ‘अझै’ भन्छ। आत्म-हेरचाहभन्दा काम अगाडि हुन्छ। थाहा छ— यो टिकाउ छैन, तर आजको सत्य यही हो।"
+  },
+  {
+    "id": "T073",
+    "category": "Dream_vs_Reality",
+    "context": "सुरुमा लक्ष्य थियो— ‘धनी बन्ने’। [pause] तर अहिले लक्ष्य फेरिएको छ— ‘स्थिर जागिर पाउने’, ‘किस्ता तिर्न सक्ने’, ‘घर सम्हाल्न सक्ने’। [heavy_sigh] सपना सानो भएको होइन, तर वास्तविकताले व्यवहारिक बन्न बाध्य बनाएको छ। [pause] साधन सीमित छन्, त्यसैले चाहना पनि नापतौल गर्नुपर्छ। [whisper] आजकल बाँच्न सक्नु नै सफलता जस्तो लाग्छ। सपना अझै छ, तर बाटोमा काँडा धेरै छन्।"
+  },
+  {
+    "id": "T074",
+    "category": "Future_Uncertainty",
+    "context": "डायरीको भोलिको पानामा केही लेख्न खोज्छु, तर कलम रोकिन्छ। [pause] के लेख्ने— ‘यो गर्छु’, ‘त्यो हासिल गर्छु’? तर सुनिश्चितता छैन। [heavy_sigh] त्यसैले सावधानीसँग लेख्छु— ‘सायद यो हुन्छ’, ‘आशा छ त्यो हुन्छ’। [pause] ठोस वाचा होइन, सावधान इच्छा मात्र। [whisper] भविष्य अनिश्चित हुँदा शब्द पनि डराउँछन्। आशा छ, तर ग्यारेन्टी छैन। त्यसैले मेरो कलम हल्का चल्छ… र मन झनै भारी हुन्छ।"
+  },
+  {
+    "id": "T075",
+    "category": "Struggle_Silently",
+    "context": "दबाब छ— कामको, घरको, पैसाको। [pause] तर म चुपचाप स्वीकार्छु र अघि बढ्छु। [heavy_sigh] गुनासो गर्न सक्थेँ, सहयोग माग्न सक्थेँ, तर गर्दिनँ। [pause] किनभने यही ‘सहनु’ नै सभ्यताको जस्तो बनाइएको छ। [whisper] मौन सहनशीलता कहिलेकाहीँ शक्ति होइन, आदत हुन्छ। म लड्दिनँ, बस् बोक्छु। कहिलेकाहीँ सोचिन्छ— यो बल हो कि बेबसी? तर अर्को विकल्प छैन, त्यसैले… म फेरि पनि बोक्छु।"
+  },
+  {
+    "id": "T076",
+    "category": "Education_Pressure",
+    "context": "राति २ बज्यो, अझै पढिरहेको छु, तर विश्वास छैन कि पर्याप्त छ। [pause] पाठ्यक्रम सकियो, तर मनमा शंका छ— ‘के पुग्ला?’ [heavy_sigh] किताब बन्द गर्छु, मन शान्त हुँदैन, फेरि खोल्छु। [pause] कति पढ्ने भन्ने सीमा छैन, बस् डर छ— नपुग्ने डर। [whisper] मेहनत त छ, तर आश्वासन छैन। ज्ञान छ, तर भरोसा छैन। आज फेरि निद्रा हैन… शंका जित्दैछ।"
+  },
+  {
+    "id": "T077",
+    "category": "Responsibility_Weight",
+    "context": "परिस्थिति आयो— कसैले अगाडि बढ्नुपर्थ्यो। [pause] सबैजना हिच्किचाइरहेका थिए, म पनि तयार थिइनँ। [heavy_sigh] तर अरू कोही अघि आएन, त्यसैले मैले नियन्त्रण लिनुपर्‍यो। [pause] योग्य छैन, अनुभवी छैन— तर जिम्मेवारीले मलाई धकेल्यो। [whisper] यो नेतृत्व चाहेर आएको होइन, बाध्यताले दिएको हो। तयार नभए पनि गर्नुपर्‍यो, किनकि अरू विकल्प थिएन। आज म बुझ्दैछु— जिम्मेवारीले मान्छेलाई बनाउँछ… वा भत्काउँछ।"
+  }
 ]
+
