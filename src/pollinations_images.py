@@ -1,5 +1,4 @@
 import requests
-import urllib.parse
 from PIL import Image
 from io import BytesIO
 import os
@@ -14,11 +13,12 @@ class ImageGenerator:
     )
 
     def __init__(self):
-        self.api_key = os.getenv("POLLINATIONS_API_KEY")
+        # Cloudflare Worker API URL
+        self.worker_url = os.getenv("WORKER_API_URL", "https://techkoseli.liladharbhatta9.workers.dev")
+        self.api_key = os.getenv("WORKER_API_KEY")
         if not self.api_key:
             logger.warning(
-                "[Pollinations] POLLINATIONS_API_KEY not set. "
-                "Requests may be rate-limited."
+                "[WorkerAI] WORKER_API_KEY not set. Requests will fail."
             )
 
     def generate_image(
@@ -31,60 +31,53 @@ class ImageGenerator:
         delay: float = 2.0
     ) -> bool:
         """
-        Generate image via Pollinations API and save it.
-        Uses API key if provided.
+        Generate image via Cloudflare Worker API and save it.
         """
 
-        enhanced_prompt = f"{prompt}, {self.BASE_STYLE}"
-        encoded_prompt = urllib.parse.quote(enhanced_prompt)
-        seed = os.urandom(4).hex()
+        enhanced_prompt = f"{prompt}, {self.BASE_STYLE}, vertical {width}x{height}"
 
-        url = (
-            f"https://image.pollinations.ai/prompt/{encoded_prompt}"
-            f"?width={width}&height={height}&nologo=true&seed={seed}"
-        )
-
+        payload = {"prompt": enhanced_prompt}
         headers = {
-            "User-Agent": "Mozilla/5.0",
+            "Authorization": f"Bearer {self.api_key}",
+            "User-Agent": "Mozilla/5.0"
         }
 
-        if self.api_key:
-            headers["Authorization"] = f"Bearer {self.api_key}"
-
-        logger.info(f"[Pollinations] Generating image: {prompt[:60]}")
+        logger.info(f"[WorkerAI] Generating image: {prompt[:60]}")
 
         for attempt in range(1, retries + 1):
             try:
-                response = requests.get(
-                    url,
+                response = requests.post(
+                    self.worker_url,
+                    json=payload,
                     headers=headers,
-                    timeout=40
+                    timeout=60
                 )
 
                 if response.status_code != 200:
-                    raise RuntimeError(f"HTTP {response.status_code}")
+                    raise RuntimeError(f"HTTP {response.status_code}: {response.text}")
 
-                content_type = response.headers.get("Content-Type", "")
-                if not content_type.startswith("image/"):
-                    raise RuntimeError(f"Invalid content-type: {content_type}")
-
+                # Open image from bytes
                 img = Image.open(BytesIO(response.content)).convert("RGB")
-
-                # PNG is safer for FFmpeg zoom/pan + subtitles
                 img.save(output_path, format="PNG", optimize=True)
 
-                logger.info(f"[Pollinations] Image saved → {output_path}")
+                logger.info(f"[WorkerAI] Image saved → {output_path}")
                 return True
 
             except Exception as e:
                 logger.warning(
-                    f"[Pollinations] Attempt {attempt}/{retries} failed: {e}"
+                    f"[WorkerAI] Attempt {attempt}/{retries} failed: {e}"
                 )
                 if attempt < retries:
                     time.sleep(delay)
 
-        logger.error("[Pollinations] Image generation failed after retries")
+        logger.error("[WorkerAI] Image generation failed after retries")
         return False
 
 
-image_generator = ImageGenerator()
+# Example usage
+if __name__ == "__main__":
+    image_generator = ImageGenerator()
+    image_generator.generate_image(
+        prompt="Beautiful Himalaya mountains at sunrise",
+        output_path="himalaya.png"
+    )
