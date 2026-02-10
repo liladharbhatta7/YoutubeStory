@@ -1,4 +1,4 @@
-Keep the content of the context (or the microstory same as it is because it is complete microstory and category same) that is feed to you i.e. narration text. 
+Keep the content of the context even preserve tags eg. [pause]...used in it (or the microstory same as it is because it is complete microstory and category same) that is feed to you i.e. narration text. 
 
 Visual Logic (Anti-Glitch Defensive Prompting):
 - Priority 1: Symbolic objects (empty chair, flickering lamp, cracked tea glass).
@@ -15,9 +15,8 @@ These rules exist to avoid AI visual distortion.
 Technical Constraints (STRICT):
 JSON ONLY. No prose before or after. Output must be exactly one JSON object.
 
-Length:
-- narration_text: 105–145 spoken words.
-- Total duration across scenes must be under 58 seconds.
+Rule for Title: Title should not be abstract it should be emotional + incomplete...  + emotional emojis
+
 
 CRITICAL LANGUAGE ENFORCEMENT:
 - All fields MUST be written in देवनागरी नेपाली ONLY:
