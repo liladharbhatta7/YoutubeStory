@@ -21,9 +21,10 @@ class VoiceGenerator:
             "text": text,
             "model_id": self.model_id,
             "voice_settings": {
-                "stability": 0.5,
-                "similarity_boost": 0.75,
-                "style": 0.5
+                "stability": 0.35,       # Lower = more emotional variation, less robotic flatness
+                "similarity_boost": 0.80, # Higher = stays true to the voice character
+                "style": 0.75,           # Higher = more expressive, dramatic delivery
+                "use_speaker_boost": True # Adds presence and warmth to the voice
             }
         }
         
